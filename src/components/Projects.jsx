@@ -27,12 +27,7 @@ export default function Projects(props) {
         <span className="portfolio-item d-block">
           <div className="foto" onClick={()=> handleShow(project)}  >
             <div>
-              <img
-                src={project.images[0]}
-                alt="projectImages"
-                height="230"
-                style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-              />
+              <img src={project.images[0]} alt="projectImages"/>
               <span className="project-date">{project.startDate}</span>
               <p className="project-title-settings mt-3">{project.title}</p>
             </div>

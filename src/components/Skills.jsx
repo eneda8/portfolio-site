@@ -2,17 +2,13 @@ import React from "react";
 import { nanoid } from "nanoid";
 
 export default function Skills(props) {
- 
   const skills = props.skills.icons.map(function (skill) {
     return (
       <li className="list-inline-item mx-3" key={nanoid()}>
         <span>
           <div className="text-center skills-tile">
-            <i className={skill.class} style={{ fontSize: "220%" }}>
-              <p className="text-center" style={{ fontSize: "30%", marginTop: "4px" }}>
-                {skill.name}
-              </p>
-            </i>
+            <i className={skill.class}></i>
+            <p className="text-center">{skill.name}</p>
           </div>
         </span>
       </li>

@@ -18,12 +18,7 @@ export default function Footer(props){
         <div className="social-links">{networks}</div>
         <div className="copyright py-4 text-center">
           <div className="container">
-            <small>
-              Copyright &copy;{" "}
-              {props.basicInfo
-                ? props.basicInfo.name
-                : "???"}
-            </small>
+            <small>Copyright &copy; {props.basicInfo.name}</small>
           </div>
         </div>
       </div>
