@@ -2,15 +2,21 @@ import React from "react";
 import { nanoid } from "nanoid";
 
 export default function Skills(props) {
-  const skills = props.skills.icons.map(function (skill) {
+  const skills = props.skills.icons.map(function (skill) {  
+    const handleHover = (e) => {
+      const icon = e.target.querySelector("i");
+      if(icon){icon.classList.toggle("colored")};
+    };
+    
     return (
-      <li className="list-inline-item mx-3" key={nanoid()}>
-        <span>
-          <div className="text-center skills-tile">
-            <i className={skill.class}></i>
-            <p className="text-center">{skill.name}</p>
-          </div>
-        </span>
+      <li className="list-inline-item mx-3 " key={nanoid()}>
+        <div 
+          className="text-center skills-tile"
+          onMouseEnter={handleHover} onMouseLeave={handleHover} 
+          >
+           <i className={skill.class}></i> 
+          <p className="text-center">{skill.name}</p>
+        </div>
       </li>
     );
   });
