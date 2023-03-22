@@ -41,7 +41,7 @@ export default function ProjectDetailsModal(props) {
         className="modal-inside"
       >
         <span onClick={props.onHide} className="modal-close">
-          <i className="fas fa-times fa-3x close-icon"></i>
+          <i className="fa-solid fa-xmark fa-2xl"></i>
         </span>
 
         <div className="col-md-12">
