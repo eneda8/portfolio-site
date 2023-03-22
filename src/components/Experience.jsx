@@ -5,8 +5,8 @@ import Badge from "react-bootstrap/Badge";
 import { nanoid } from "nanoid";
 
 export default function Experience(props) {
-  const timelineIcon = (<i className="fab fa-angular experience-icon"></i>)
-  const timelineIconStyle = ({ background: "#AE944F", color: "#fff", textAlign: "center"})
+  const timelineIcon = (<i className="fab fa-react experience-icon"></i>)
+  const timelineIconStyle = ({ background: "#98b6b1", color: "#fff", textAlign: "center"})
 
   const experiences = props.experience.map(function(experience) {
     const techBadges = experience.technologies.map((tech) => {
@@ -39,10 +39,10 @@ export default function Experience(props) {
   });
     
   return (
-    <section id="resume" className="pb-5">
+    <section id="resume">
       <div className="col-md-12 mx-auto">
         <div className="col-md-12">
-          <h1 className="section-title text-center" style={{color: "black"}}>Experience</h1>
+          <h1 className="section-title text-center">Experience</h1>
         </div>
       </div>
       <div className="col-md-8 mx-auto">
