@@ -2,34 +2,28 @@ body[data-theme="dark"] {
 
    @import '../src/scss/dark-slider.scss';
    
-
-   .slider-tab {
-      background-color: #343239;
-   }
-
-   .title-styles {
-      color: white;
-   }
-
-   .header-icon {
-      color: #1f1f1f;
-   }
-
-   .slider-image {
-      border: 5px solid #343239;
-   }
-
-   .link-href {
-      color: white;
-   }
-
-
-   header {
+   #home{
       background-color: #4c6b66;
       h1 {
          color: white;
       }
+      .slider-tab {
+         background-color: #343239;
+      }
+
+      .title-styles {
+         color: white;
+      }
+
+      .header-icon {
+         color: #1f1f1f;
+      }
+
+      .slider-image {
+         border: 5px solid #343239;
+      }
    }
+
 
    #about {
       background: #232c2f;
@@ -65,6 +59,9 @@ body[data-theme="dark"] {
       }
       .project-date{
          background: #343239;
+         color: white;
+      }
+      .link-href {
          color: white;
       }
    }
