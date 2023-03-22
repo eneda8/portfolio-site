@@ -24,7 +24,6 @@ export default function Header(props) {
     <header id="home">
       <div className="row aligner">
         <div className="col-md-12">
-          <div>
             <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
             <h1 className="mb-0">{[fullName]}</h1>
             <div className="title-container">
@@ -33,7 +32,7 @@ export default function Header(props) {
             <Switch
               checked={theme}
               onChange={onThemeSwitchChange}
-              offColor="#baaa80"
+              offColor="#f5ebd4"
               onColor="#353535"
               className="react-switch mx-auto"
               width={90}
@@ -55,7 +54,6 @@ export default function Header(props) {
               }
               id="icon-switch"
             />
-          </div>
         </div>
       </div>
     </header>
