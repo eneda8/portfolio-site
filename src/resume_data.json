@@ -9,61 +9,70 @@
           "icon": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "icon": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/eneda/",
+          "icon": "fab fa-linkedin"
+        },
+        {
+          "name": "email",
+          "url": "mailto:enedaxhambazi@gmail.com",
+          "icon": "fa fa-envelope"
+        },
+        {
+          "name": "resume",
+          "url": "resume.pdf",
+          "icon": "fa-solid fa-file-pdf fa-sm"
         }
       ],
       "image": "myProfile.jpg",
-      "description_header": "Hi :)",
-      "description": "👋 I'm Eneda. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜"
+      "description_header": "Hi 👋 I'm Eneda :)",
+      "description": "I'm a full-stack JavaScript web developer specializing in the MERN (MongoDB, Express, React, and Node) stack. I strive to create dynamic web applications that are both sophisticated and user-friendly.\n\nAs a lifelong writer, I had always been fascinated by the endless possibilities of coding, which seemed to me a new and exciting art form. I finally began pursuing my curiosity in 2020 when I decided to take an online web development bootcamp course on Udemy. Since then, through various online courses and projects, I've faced many exciting challenges that have allowed me to develop my creative problem-solving abilities and refine my attention to detail. I am most proud of my passion project, t'day, an anonymous social networking site I call ''the world's first collective online journal'', which you can read more about below. \n\nWhen I'm not coding, you can find me writing, exploring the great outdoors, trying out new vegetarian recipes in the kitchen or playing with my beloved cat Rigby. 🐱 If you're looking for someone who is passionate about bringing ideas to life through web development, please don't hesitate to reach out. I'd love to hear from you!"
     },
     "skills": {
       "icons": [
         {
           "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "class": "devicon-html5-plain "
         },
         {
           "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "class": "devicon-css3-plain "
         },
         {
           "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "class": "devicon-javascript-plain "
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain "
+        },        
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain " 
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original "
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original "
         },
         {
           "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "class": "devicon-sass-original "
         },
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "class": "devicon-bootstrap-plain "
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Bulma",
+          "class": "devicon-bulma-plain "
         }
       ]
     },
