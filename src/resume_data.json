@@ -83,7 +83,13 @@
         "description": "",
         "images": [
           "images/portfolio/t'day/1.png",
-          "images/portfolio/t'day/2.png"
+          "images/portfolio/t'day/2.png",
+          "images/portfolio/t'day/3.png",
+          "images/portfolio/t'day/4.png",
+          "images/portfolio/t'day/5.png",
+          "images/portfolio/t'day/6.png",
+          "images/portfolio/t'day/7.png",
+          "images/portfolio/t'day/8.png"
         ],
         "git": "https://www.github.com/eneda8/tday",
         "url": "https://www.tday.co",
