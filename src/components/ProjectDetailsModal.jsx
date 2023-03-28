@@ -1,5 +1,5 @@
 import React from "react";
-import {Modal} from "react-bootstrap/modal";
+import Modal from "react-bootstrap/Modal";
 import AwesomeSlider from "react-awesome-slider";
 import lightSlider from "../scss/light-slider.scss?inline";
 import darkSlider from "../scss/dark-slider.scss?inline";
