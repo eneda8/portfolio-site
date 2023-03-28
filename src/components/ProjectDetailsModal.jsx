@@ -48,20 +48,23 @@ export default function ProjectDetailsModal(props) {
               <span className="iconify slider-iconify" data-icon="twemoji:yellow-circle" data-inline="false"></span>
               <span className="iconify slider-iconify" data-icon="twemoji:green-circle" data-inline="false"></span>
             </div>
+            {img.length > 1 &&
              <AwesomeSlider cssModule={[lightSlider, darkSlider]} animation="scaleOutAnimation" className="slider-image">
               {img}
             </AwesomeSlider> 
+            }
+            {img.length == 1 && img}
           </div>
           <div className="col-md-10 mx-auto">
             <h3 className="modal--title">{title} 
-              {git && 
-              <a href={git} target="_blank" rel="noopener noreferrer" className="link-href">
-                  <i class="fa-brands fa-square-github"></i>
-              </a>
-              } 
               {url && 
               <a href={url} target="_blank" rel="noopener noreferrer" className="link-href">
                   <i className="fas fa-external-link-alt"></i>
+              </a>
+              } 
+              {git && 
+              <a href={git} target="_blank" rel="noopener noreferrer" className="link-href">
+                  <i class="fa-brands fa-square-github fa-lg"></i>
               </a>
               } 
             </h3>

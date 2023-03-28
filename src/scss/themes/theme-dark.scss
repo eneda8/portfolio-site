@@ -2,13 +2,22 @@ body[data-theme="dark"] {
 
    @import '../src/scss/dark-slider.scss';
    
+   .slider-tab {
+      background-color: black !important;
+   }
+
+   .slider-image {
+      border: 5px solid black !important;
+   }
+
+   .link-href{
+      color: white !important;
+   }
+
    #home{
       background-color: #4c6b66;
       h1 {
          color: white;
-      }
-      .slider-tab {
-         background-color: #343239;
       }
 
       .title-styles {
@@ -19,11 +28,13 @@ body[data-theme="dark"] {
          color: #1f1f1f;
       }
 
-      .slider-image {
-         border: 5px solid #343239;
+      .contact--button{
+         background-color: white;
+      }
+      .contact--button:hover{
+         background-color: #edd7d3;
       }
    }
-
 
    #about {
       background: #232c2f;
@@ -52,18 +63,18 @@ body[data-theme="dark"] {
          color: white !important;
       }
       .foto div {
-         background: #F1EFEF;
+         background:#343239;
+      }
+      .foto img{
+         border: 1px solid #343239
       }
       .project-title-settings {
-         color: #1f1f1f;
+         color: white;
       }
       .project-date{
-         background: #343239;
+         background: black;
          color: white;
-      }
-      .link-href {
-         color: white;
-      }
+      }      
    }
 
    #resume {
@@ -81,6 +92,7 @@ body[data-theme="dark"] {
 
       .main-badge {
          background: #353b3d !important;
+         color: white;
       }
 
       .vertical-timeline-element-date {

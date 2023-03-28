@@ -4,22 +4,22 @@
       "titles": [ "Front-end Developer", "Full Stack Web Developer", "Software Engineer"],
       "social": [
         {
-          "name": "github",
+          "name": "Github",
           "url": "https://github.com/eneda8",
           "icon": "fab fa-github"
         },
         {
-          "name": "linkedin",
+          "name": "LinkedIn",
           "url": "https://www.linkedin.com/in/eneda/",
           "icon": "fab fa-linkedin"
         },
         {
-          "name": "email",
+          "name": "Email",
           "url": "mailto:enedaxhambazi@gmail.com",
           "icon": "fa fa-envelope"
         },
         {
-          "name": "resume",
+          "name": "Resume",
           "url": "resume.pdf",
           "icon": "fa-solid fa-file-pdf fa-sm"
         }
