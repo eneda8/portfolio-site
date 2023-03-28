@@ -4,6 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import lightSlider from "../scss/light-slider.scss?inline";
 import darkSlider from "../scss/dark-slider.scss?inline";
 import { nanoid } from "nanoid";
+import {InnerImageZoom} from 'react-inner-image-zoom';
 
 export default function ProjectDetailsModal(props) {
     const {images, title, description, url, git, technologies} = props.data;
@@ -23,7 +24,7 @@ export default function ProjectDetailsModal(props) {
       );
     });
     const img = images.map((elem) => {
-      return <div key={nanoid()} className="d-block w-100" data-src={elem} />;
+      return <div className="d-block w-100" key={nanoid()}><InnerImageZoom src={elem} /></div>;
     });
     
     return (

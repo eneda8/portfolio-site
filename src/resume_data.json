@@ -179,13 +179,7 @@
         "description": "",
         "images": [
           "images/portfolio/meme-generator/1.png",
-          "images/portfolio/meme-generator/2.png",
-          "images/portfolio/meme-generator/3.png",
-          "images/portfolio/meme-generator/4.png",
-          "images/portfolio/meme-generator/5.png",
-          "images/portfolio/meme-generator/6.png",
-          "images/portfolio/meme-generator/7.png",
-          "images/portfolio/meme-generator/8.png"
+          "images/portfolio/meme-generator/2.png"
         ],
         "git": "https://github.com/eneda8/meme-generator",
         "url": "https://meme-generator-ex.netlify.app",
