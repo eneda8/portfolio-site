@@ -78,70 +78,205 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "t'day",
+        "startDate": "2021",
+        "description": "",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/t'day/1.png",
+          "images/portfolio/t'day/2.png"
         ],
-        "url": "",
+        "git": "https://www.github.com/eneda8/tday",
+        "url": "https://www.tday.co",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-express-original ",
+            "name": "Express"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-nodejs-plain ",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-mongodb-plain ",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-bootstrap-plain ",
+            "name": "Bootstrap"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Yelp Camp",
+        "startDate": "2020",
+        "description": "",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/yelp-camp/1.png",
+          "images/portfolio/yelp-camp/2.png",
+          "images/portfolio/yelp-camp/3.png",
+          "images/portfolio/yelp-camp/4.png"
         ],
-        "url": "https://github.com",
+        "git": "https://github.com/eneda8/yelp-camp",
+        "url": "https://secret-fortress-70149.herokuapp.com/",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-javascript-plain",
+            "class": "devicon-express-original ",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-nodejs-plain ",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-mongodb-plain ",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-bootstrap-plain ",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Tenzies",
+        "startDate": "2023",
+        "description": "",
+        "images": [
+          "images/portfolio/tenzies/1.png",
+          "images/portfolio/tenzies/2.png",
+          "images/portfolio/tenzies/3.png"
+        ],
+        "git": "https://github.com/eneda8/tenzies",
+        "url": "https://tenzies-ex.netlify.app",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-original "
+          }
+        ]
+      },
+      {
+        "title": "Meme Generator",
+        "startDate": "2023",
+        "description": "",
+        "images": [
+          "images/portfolio/meme-generator/1.png",
+          "images/portfolio/meme-generator/2.png",
+          "images/portfolio/meme-generator/3.png",
+          "images/portfolio/meme-generator/4.png",
+          "images/portfolio/meme-generator/5.png",
+          "images/portfolio/meme-generator/6.png",
+          "images/portfolio/meme-generator/7.png",
+          "images/portfolio/meme-generator/8.png"
+        ],
+        "git": "https://github.com/eneda8/meme-generator",
+        "url": "https://meme-generator-ex.netlify.app",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-original "
+          }
+        ]
+      },
+      {
+        "title": "Patatap Clone",
+        "startDate": "2020",
+        "description": "",
+        "images": [
+          "images/portfolio/patatap-clone/1.png"
+        ],
+        "git": "https://github.com/eneda8/patatap-clone",
+        "url": "https://patatap-clone-ex.netlify.app",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain ",
             "name": "JavaScript"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Secret Message",
+        "startDate": "2020",
+        "description": "",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/secret-message/1.png",
+          "images/portfolio/secret-message/2.png",
+          "images/portfolio/secret-message/3.png"
         ],
-        "url": "https://github.com",
+        "git": "https://github.com/eneda8/secret-message",
+        "url": "https://secret-message-ex.netlify.app",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Color Guessing Game",
+        "startDate": "2020",
+        "description": "",
+        "images": [
+          "images/portfolio/color-game/1.png",
+          "images/portfolio/color-game/2.png",
+          "images/portfolio/color-game/3.png"
+        ],
+        "git": "https://github.com/eneda8/color-game",
+        "url": "https://color-game-ex.netlify.app",
+        "technologies": [
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Movie Fight",
+        "startDate": "2020",
+        "description": "",
+        "images": [
+          "images/portfolio/movie-fight/1.png"
+        ],
+        "git": "https://github.com/eneda8/movie-fight",
+        "url": "https://movie-fight-ex.netlify.app",
+        "technologies": [
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Maze",
+        "startDate": "2020",
+        "description": "",
+        "images": [
+          "images/portfolio/maze/1.png",
+          "images/portfolio/maze/2.png",
+          "images/portfolio/maze/3.png"
+        ],
+        "git": "https://github.com/eneda8/maze",
+        "url": "https://maze-ex.netlify.app",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
           }
         ]
       }

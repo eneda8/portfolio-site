@@ -1,35 +1,30 @@
 import React from "react";
 import Modal from "react-bootstrap/modal";
 import AwesomeSlider from "react-awesome-slider";
-import lightSlider from "../scss/light-slider.scss";
-import darkSlider from "../scss/dark-slider.scss";
+import lightSlider from "../scss/light-slider.scss?inline";
+import darkSlider from "../scss/dark-slider.scss?inline";
 import { nanoid } from "nanoid";
 
 export default function ProjectDetailsModal(props) {
-    const project = props.data;
-    const images = project.images;
-    const title = project.title;
-    const description = project.description;
-    const url = project.url;
-      const technologies = props.data.technologies;
-      const tech = technologies.map((icons, i) => {
-        return (
-          <li className="list-inline-item mx-3" key={i}>
-            <span>
-              <div className="text-center">
-                <i className={icons.class} style={{ fontSize: "300%" }}>
-                  <p className="text-center" style={{ fontSize: "30%" }}>
-                    {icons.name}
-                  </p>
-                </i>
-              </div>
-            </span>
-          </li>
-        );
-      });
-      var img = images.map((elem) => {
-        return <div key={nanoid()} className="d-block w-100" data-src={elem} />;
-      });
+    const {images, title, description, url, git, technologies} = props.data;
+    const tech = technologies.map((icons, i) => {
+      return (
+        <li className="list-inline-item mx-3" key={i}>
+          <span>
+            <div className="text-center">
+              <i className={icons.class} style={{ fontSize: "300%" }}>
+                <p className="text-center" style={{ fontSize: "30%" }}>
+                  {icons.name}
+                </p>
+              </i>
+            </div>
+          </span>
+        </li>
+      );
+    });
+    const img = images.map((elem) => {
+      return <div key={nanoid()} className="d-block w-100" data-src={elem} />;
+    });
     
     return (
       <Modal
@@ -58,6 +53,11 @@ export default function ProjectDetailsModal(props) {
           </div>
           <div className="col-md-10 mx-auto">
             <h3 className="modal--title">{title} 
+              {git && 
+              <a href={git} target="_blank" rel="noopener noreferrer" className="link-href">
+                  <i class="fa-brands fa-square-github"></i>
+              </a>
+              } 
               {url && 
               <a href={url} target="_blank" rel="noopener noreferrer" className="link-href">
                   <i className="fas fa-external-link-alt"></i>

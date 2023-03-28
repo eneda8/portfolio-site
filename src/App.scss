@@ -45,7 +45,7 @@ body {
 	-o-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: rgb(152, 182, 177);
+	background-color: #98b6b1;
 	background-size: cover;
 	padding: 0;
 
@@ -186,7 +186,7 @@ body {
 
 		.mini-main {
 			font-size: 1.6em;
-			font-family: "Raleway";
+			font-family: "Raleway", sans-serif;
 			font-weight: 500;
 			letter-spacing: 1px;
 			background-color: #fbf7ee;
@@ -216,7 +216,7 @@ body {
 		font-size: 16px;
 		font-weight: 500;
 		// font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		font-family: "Raleway";
+		font-family: "Raleway", sans-serif;
 		padding: 8px 15px 6px;
 		position: relative;
 		z-index: -500;
@@ -256,6 +256,7 @@ body {
 		margin-bottom: 0;
 		padding-bottom: 0;
 		position: relative;
+		border: 1px solid #f5ebd4;
 	}
 
 	.foto div {

@@ -7,6 +7,7 @@ const defaultDetails = {
   startDate: "",
   description: "",
   images: [],
+  git: "",
   url: "",
   technologies: []
 }
