@@ -195,15 +195,37 @@
         ]
       },
       {
+        "title": "Maze Game",
+        "startDate": "2020",
+        "description": "An in-browswer maze game that uses the <a href='https://brm.io/matter-js/'>Matter JS</a> physics engine. A randomized maze is generated using a recursive implementation of a depth-first search algorithm. MatterJS is then used to draw the maze onto the canvas element, map key presses to the movements of the ball shape on the screen and detect collisions between shapes (walls and the end goal). At the end of the game, the walls of the maze are collapsed using a MatterJS animation.",
+        "images": [
+          "images/portfolio/maze/1.png",
+          "images/portfolio/maze/2.png",
+          "images/portfolio/maze/3.png"
+        ],
+        "git": "https://github.com/eneda8/maze",
+        "url": "https://maze-ex.netlify.app",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
         "title": "Patatap Clone",
         "startDate": "2020",
-        "description": "",
+        "description": "A simple clone of <a href='https://www.patatap.com'>Patatap</a> that uses <a href='https://www.howlerjs.com'>HowlerJS</a> for audio and <a href='http://paperjs.org/about/'>PaperJS</a> for animations. Pressing any A-Z key triggers a corresponding sound and circle animation. \n This project was a lot of fun to create and was the first time I incorporated libraries into a project as part of my web development bootcamp course. :)",
         "images": [
           "images/portfolio/patatap-clone/1.png"
         ],
         "git": "https://github.com/eneda8/patatap-clone",
         "url": "https://patatap-clone-ex.netlify.app",
         "technologies": [
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain "
+          },
           {
             "class": "devicon-javascript-plain ",
             "name": "JavaScript"
@@ -213,7 +235,7 @@
       {
         "title": "Secret Message",
         "startDate": "2020",
-        "description": "",
+        "description": "A secret message sharing app that uses <a href='https://developer.mozilla.org/en-US/docs/Glossary/Base64'>Base64</a> encoding. The user's message is converted to a Base64 string which is appended to a sharable URL link. When clicked, the link displays the original decoded message stylized as spoiler text. I recently updated this project to support emojis 😊.",
         "images": [
           "images/portfolio/secret-message/1.png",
           "images/portfolio/secret-message/2.png",
@@ -223,23 +245,13 @@
         "url": "https://secret-message-ex.netlify.app",
         "technologies": [
           {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Color Guessing Game",
-        "startDate": "2020",
-        "description": "",
-        "images": [
-          "images/portfolio/color-game/1.png",
-          "images/portfolio/color-game/2.png",
-          "images/portfolio/color-game/3.png"
-        ],
-        "git": "https://github.com/eneda8/color-game",
-        "url": "https://color-game-ex.netlify.app",
-        "technologies": [
+            "name": "HTML 5",
+            "class": "devicon-html5-plain "
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain "
+          },
           {
             "class": "devicon-javascript-plain ",
             "name": "JavaScript"
@@ -249,31 +261,53 @@
       {
         "title": "Movie Fight",
         "startDate": "2020",
-        "description": "",
+        "description": "An app that allows a user to compare two movies based on statistics fetched from the <a href='https://www.omdbapi.com'>OMBDI API</a> a choose a 'winner'. The app features an autocomplete widget that searchs the API on input change.",
         "images": [
-          "images/portfolio/movie-fight/1.png"
+          "images/portfolio/movie-fight/1.png",
+          "images/portfolio/movie-fight/2.png",
+          "images/portfolio/movie-fight/3.png"
         ],
         "git": "https://github.com/eneda8/movie-fight",
         "url": "https://movie-fight-ex.netlify.app",
         "technologies": [
           {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain "
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain "
+          },
+          {
             "class": "devicon-javascript-plain ",
             "name": "JavaScript"
+          },
+          {
+            "name": "Bulma",
+            "class": "devicon-bulma-plain "
           }
         ]
       },
       {
-        "title": "Maze",
+        "title": "Color Guessing Game",
         "startDate": "2020",
-        "description": "",
+        "description": "Simple game that prompts the player to guess the RGB value of a randomized displayed color from either 3 (easy mode) or 6 (hard mode) options. ",
         "images": [
-          "images/portfolio/maze/1.png",
-          "images/portfolio/maze/2.png",
-          "images/portfolio/maze/3.png"
+          "images/portfolio/color-game/1.png",
+          "images/portfolio/color-game/2.png",
+          "images/portfolio/color-game/3.png"
         ],
-        "git": "https://github.com/eneda8/maze",
-        "url": "https://maze-ex.netlify.app",
+        "git": "https://github.com/eneda8/color-game",
+        "url": "https://color-game-ex.netlify.app",
         "technologies": [
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain "
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain "
+          },
           {
             "class": "devicon-javascript-plain ",
             "name": "JavaScript"
