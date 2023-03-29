@@ -64,11 +64,11 @@ export default function ProjectDetailsModal(props) {
               } 
               {git && 
               <a href={git} target="_blank" rel="noopener noreferrer" className="link-href">
-                  <i class="fa-brands fa-square-github fa-lg"></i>
+                  <i className="fa-brands fa-square-github fa-lg"></i>
               </a>
               } 
             </h3>
-            <p className="modal-description">{description}</p>
+            <p id="desc" className="modal-description" dangerouslySetInnerHTML={{__html: description}}></p>
             <div className="col-md-12 text-center">
               {props.data.technologies && <ul className="list-inline mx-auto">{tech}</ul>}
             </div>
