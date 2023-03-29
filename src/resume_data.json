@@ -78,21 +78,17 @@
     },
     "projects": [
       {
-        "title": "t'day",
-        "startDate": "2021",
+        "title": "Yelp Camp",
+        "startDate": "2020-2021",
         "description": "",
         "images": [
-          "images/portfolio/t'day/1.png",
-          "images/portfolio/t'day/2.png",
-          "images/portfolio/t'day/3.png",
-          "images/portfolio/t'day/4.png",
-          "images/portfolio/t'day/5.png",
-          "images/portfolio/t'day/6.png",
-          "images/portfolio/t'day/7.png",
-          "images/portfolio/t'day/8.png"
+          "images/portfolio/yelp-camp/1.png",
+          "images/portfolio/yelp-camp/2.png",
+          "images/portfolio/yelp-camp/3.png",
+          "images/portfolio/yelp-camp/4.png"
         ],
-        "git": "https://www.github.com/eneda8/tday",
-        "url": "https://www.tday.co",
+        "git": "https://github.com/eneda8/yelp-camp",
+        "url": "https://secret-fortress-70149.herokuapp.com/",
         "technologies": [
           {
             "class": "devicon-javascript-plain ",
@@ -117,17 +113,21 @@
         ]
       },
       {
-        "title": "Yelp Camp",
-        "startDate": "2020",
+        "title": "t'day",
+        "startDate": "2021-2022",
         "description": "",
         "images": [
-          "images/portfolio/yelp-camp/1.png",
-          "images/portfolio/yelp-camp/2.png",
-          "images/portfolio/yelp-camp/3.png",
-          "images/portfolio/yelp-camp/4.png"
+          "images/portfolio/t'day/1.png",
+          "images/portfolio/t'day/2.png",
+          "images/portfolio/t'day/3.png",
+          "images/portfolio/t'day/4.png",
+          "images/portfolio/t'day/5.png",
+          "images/portfolio/t'day/6.png",
+          "images/portfolio/t'day/7.png",
+          "images/portfolio/t'day/8.png"
         ],
-        "git": "https://github.com/eneda8/yelp-camp",
-        "url": "https://secret-fortress-70149.herokuapp.com/",
+        "git": "https://www.github.com/eneda8/tday",
+        "url": "https://www.tday.co",
         "technologies": [
           {
             "class": "devicon-javascript-plain ",
@@ -213,26 +213,6 @@
         ]
       },
       {
-        "title": "Patatap Clone",
-        "startDate": "2020",
-        "description": "A simple clone of <a href='https://www.patatap.com'>Patatap</a> that uses <a href='https://www.howlerjs.com'>HowlerJS</a> for audio and <a href='http://paperjs.org/about/'>PaperJS</a> for animations. Pressing any A-Z key triggers a corresponding sound and circle animation. \n This project was a lot of fun to create and was the first time I incorporated libraries into a project as part of my web development bootcamp course. :)",
-        "images": [
-          "images/portfolio/patatap-clone/1.png"
-        ],
-        "git": "https://github.com/eneda8/patatap-clone",
-        "url": "https://patatap-clone-ex.netlify.app",
-        "technologies": [
-          {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain "
-          },
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
         "title": "Secret Message",
         "startDate": "2020",
         "description": "A secret message sharing app that uses <a href='https://developer.mozilla.org/en-US/docs/Glossary/Base64'>Base64</a> encoding. The user's message is converted to a Base64 string which is appended to a sharable URL link. When clicked, the link displays the original decoded message stylized as spoiler text. I recently updated this project to support emojis 😊.",
@@ -261,7 +241,7 @@
       {
         "title": "Movie Fight",
         "startDate": "2020",
-        "description": "An app that allows a user to compare two movies based on statistics fetched from the <a href='https://www.omdbapi.com'>OMBDI API</a> a choose a 'winner'. The app features an autocomplete widget that searchs the API on input change.",
+        "description": "An app that allows a user to compare two movies based on statistics fetched from the <a href='https://www.omdbapi.com'>OMBDI API</a> and choose a 'winner'. The app features an autocomplete widget that searchs the API on input change.",
         "images": [
           "images/portfolio/movie-fight/1.png",
           "images/portfolio/movie-fight/2.png",
@@ -307,6 +287,26 @@
           {
             "name": "CSS 3",
             "class": "devicon-css3-plain "
+          },
+          {
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
+          }
+        ]
+      },    
+      {
+        "title": "Patatap Clone",
+        "startDate": "2020",
+        "description": "A simple clone of <a href='https://www.patatap.com'>Patatap</a> that uses <a href='https://www.howlerjs.com'>HowlerJS</a> for audio and <a href='http://paperjs.org/about/'>PaperJS</a> for animations. Pressing any A-Z key triggers a corresponding sound and circle animation. \n This was the first time I incorporated libraries into a project as part of my web development bootcamp course. :)",
+        "images": [
+          "images/portfolio/patatap-clone/1.png"
+        ],
+        "git": "https://github.com/eneda8/patatap-clone",
+        "url": "https://patatap-clone-ex.netlify.app",
+        "technologies": [
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain "
           },
           {
             "class": "devicon-javascript-plain ",

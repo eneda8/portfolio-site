@@ -20,11 +20,7 @@ export default function Projects(props) {
   
   const projects = props.projects.map((project) =>{
     return (
-      <div
-        className="col-sm-12 col-md-6 col-lg-4"
-        key={nanoid()}
-        style={{ cursor: "pointer" }}
-      >
+      <div className="col-sm-12 col-md-6 col-lg-4 h-100" key={nanoid()}>
         <span className="portfolio-item d-block">
           <div className="foto" onClick={()=> handleShow(project)}  >
             <div>
@@ -41,11 +37,14 @@ export default function Projects(props) {
   return (
     <section id="portfolio">
       <div className="col-md-12">
-        <h1 className="section-title">
+        <h1 className="section-title" style={{"paddingBottom": "3%"}}>
           Projects
         </h1>
         <div className="col-md-12 mx-auto">
-          <div className="row mx-auto">{projects}</div>
+          <h2 className='subheading'>Full-Stack Apps</h2>
+          <div className="full-stack row mx-auto">{projects.slice(0,2)}</div>
+          <h2 className='subheading'>Front-End Apps & Games</h2>
+          <div className="front-end row mx-auto">{projects.slice(2)}</div>
         </div>
         <ProjectDetailsModal
           show={modal.modalShow}
