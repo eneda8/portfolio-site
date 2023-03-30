@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import profilePic from "/images/myProfile.jpg";
+import profilePic from "/images/myProfile.png";
 
 export default function About(props) {
   const header = props.basicInfo.description_header;

@@ -24,7 +24,7 @@
           "icon": "fa-solid fa-file-pdf fa-sm"
         }
       ],
-      "image": "myProfile.jpg",
+      "image": "myProfile.png",
       "description_header": "Hi 👋 I'm Eneda :)",
       "description": "I'm a full-stack JavaScript web developer specializing in the MERN (MongoDB, Express, React, and Node) stack. I strive to create dynamic web applications that are both sophisticated and user-friendly.\n\nAs a lifelong writer, I had always been fascinated by the endless possibilities of coding, which seemed to me a new and exciting art form. I finally began pursuing my curiosity in 2020 when I decided to take an online web development bootcamp course on Udemy. Since then, through various online courses and projects, I've faced many exciting challenges that have allowed me to develop my creative problem-solving abilities and refine my attention to detail. I am most proud of my passion project, t'day, an anonymous social networking site I call ''the world's first collective online journal'', which you can read more about below. \n\nWhen I'm not coding, you can find me writing, exploring the great outdoors, trying out new vegetarian recipes in the kitchen or playing with my beloved cat Rigby. 🐱 If you're looking for someone who is passionate about bringing ideas to life through web development, please don't hesitate to reach out. I'd love to hear from you!"
     },
@@ -213,7 +213,7 @@
       {
         "title": "Maze Game",
         "startDate": "2020",
-        "description": "An in-browswer maze game that uses the <a href='https://brm.io/matter-js/'>Matter JS</a> physics engine. A randomized maze is generated using a recursive implementation of a depth-first search algorithm. MatterJS is then used to draw the maze onto the canvas element, map key presses to the movements of the ball shape on the screen and detect collisions between shapes (walls and the end goal). At the end of the game, the walls of the maze are collapsed using a MatterJS animation.",
+        "description": "An in-browser maze game that uses the <a href='https://brm.io/matter-js/'>Matter JS</a> physics engine. A randomized maze is generated using a recursive implementation of a depth-first search algorithm. MatterJS is then used to draw the maze onto the canvas element, map key presses to the movements of the ball shape on the screen and detect collisions between shapes (walls and the end goal). At the end of the game, the walls of the maze are collapsed using a MatterJS animation.",
         "images": [
           "images/portfolio/maze/1.png",
           "images/portfolio/maze/2.png",
