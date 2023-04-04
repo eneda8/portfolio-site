@@ -2,6 +2,8 @@ import React from "react";
 import Switch from "react-switch";
 import Typical from "react-typical";
 import {nanoid} from "nanoid";
+import Button from 'react-bootstrap/Button';
+
 
 export default function Header(props) {
   const [theme, setTheme] = React.useState(false);
@@ -23,9 +25,12 @@ export default function Header(props) {
 
   const networks = props.basicInfo.social.slice(0, -1).map(function(network) {
     return (
-      <a key={nanoid()} className="contact--button" href={network.url} target="_blank" rel="noopener noreferrer">
-        <i className={network.icon}></i> {network.name}
-      </a>
+      // <a key={nanoid()} className="contact--button" href={network.url} target="_blank" rel="noopener noreferrer">
+      //   <i className={network.icon}></i> {network.name}
+      // </a>
+      <Button key={nanoid()} size="lg" className="contact--button" href={network.url} target="_blank" rel="noopener noreferrer">
+      <i className={network.icon}></i> {network.name}
+    </Button>
     );
   });
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import profilePic from "/images/myProfile.png";
+import profilePic from "/images/profilePic-cropped.png";
+import Image from 'react-bootstrap/Image'
 
 export default function About(props) {
   const header = props.basicInfo.description_header;
@@ -9,11 +10,11 @@ export default function About(props) {
   return (
     <section id="about">
       <h1 className="section-title">About Me</h1>
-      <div className="col-md-12 centered pb-5">
-        <div className="row pb-5 centered ">
-          <div className="col-md-4 mb-5 mr-5 centered">
+      <div className="col-lg-12 centered pb-md-5">
+        <div className="row pb-lg-5 centered ">
+          <div className="col-lg-4 mb-md-5 mr-5 centered">
             <div className="polaroid" >
-                <img height="250px" src={profilePic} alt="Avatar placeholder"/>
+                <Image fluid={true} height="250px" src={profilePic} alt="Avatar placeholder"/>
                 <div className="polaroid--icons">
                   <Icon className="polaroid--icon" icon="vscode-icons:file-type-mongo"/>
                   <Icon className="polaroid--icon" icon="simple-icons:express" />
@@ -37,7 +38,7 @@ export default function About(props) {
                 </div>
                 <div className="row overflow-hidden">
                   <div className="col-1 p-0"></div>
-                  <div className="mini-main card-body col-10" >
+                  <div className="mini-main card-body col-sm-10 px-5" >
                     <h2 id="wave">{header}</h2>
                     <p className="bio" style={{whiteSpace: "pre-wrap"}}>{bio}</p>
                   </div>

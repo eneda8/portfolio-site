@@ -24,9 +24,9 @@
           "icon": "fa-solid fa-file-pdf fa-sm"
         }
       ],
-      "image": "myProfile.png",
+      "image": "profilePic-cropped.png",
       "description_header": "Hi 👋 I'm Eneda :)",
-      "description": "I'm a full-stack JavaScript web developer specializing in the MERN (MongoDB, Express, React, and Node) stack. I strive to create dynamic web applications that are both sophisticated and user-friendly.\n\nAs a lifelong writer, I had always been fascinated by the endless possibilities of coding, which seemed to me a new and exciting art form. I finally began pursuing my curiosity in 2020 when I decided to take an online web development bootcamp course on Udemy. Since then, through various online courses and projects, I've faced many exciting challenges that have allowed me to develop my creative problem-solving abilities and refine my attention to detail. I am most proud of my passion project, t'day, an anonymous social networking site I call ''the world's first collective online journal'', which you can read more about below. \n\nWhen I'm not coding, you can find me writing, exploring the great outdoors, trying out new vegetarian recipes in the kitchen or playing with my beloved cat Rigby. 🐱 If you're looking for someone who is passionate about bringing ideas to life through web development, please don't hesitate to reach out. I'd love to hear from you!"
+      "description": "I'm a full-stack JavaScript web developer specializing in MongoDB, Express, React, and Node. I strive to create dynamic web applications that are both sophisticated and user-friendly.\n\nAs a lifelong writer, I had always been fascinated by the endless possibilities of coding — which seemed to me a new and exciting art form — but it wasn't until 2020 that I finally began pursuing my curiosity when I decided to take an online web development bootcamp course on Udemy. Since then, through various online courses and projects, I've faced exciting challenges that have allowed me to develop my creative problem-solving abilities and refine my attention to detail. I am most proud of my passion project, t'day, an anonymous social networking site I call ''the world's first collective online journal'', which you can read more about below. \n\nWhen I'm not coding, you can find me writing, exploring the great outdoors, trying out new vegetarian recipes in the kitchen or playing with my beloved cat Rigby. 🐱 If you're looking for someone who is passionate about bringing ideas to life through web development, please don't hesitate to reach out. I'd love to hear from you!"
     },
     "skills": {
       "icons": [
@@ -80,7 +80,7 @@
       {
         "title": "Yelp Camp",
         "startDate": "2020-2021",
-        "description": "",
+        "description": "The capstone project of Colt Steele's Web Development Bootcamp on Udemy. Yelp but for campgrounds: a fully responsive CRUD app where users can create/edit/remove their own profiles for campgrounds across the country and review others' campground profiles. Yelp Camp features geolocation using <a href='https://www.mapbox.com'>Mapbox</a> and user authentication and authorization using <a href='https://www.passportjs.org'>Passport JS</a>. Layouts were created using <a href='https://www.ejs.co'>EJS</a> and the <a href='https://cloudinary.com/'>Cloudinary</a> API is used for image storage. To see Yelp Camp in action, a demo login account is available with username and password 'e'.",
         "images": [
           "images/portfolio/yelp-camp/1.png",
           "images/portfolio/yelp-camp/2.png",

@@ -37,7 +37,7 @@ body {
 // -------HEADER COMPONENT-----------
 #home {
 	height: 400px;
-	min-height: 600px;
+	min-height: 500px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -48,7 +48,7 @@ body {
 	overflow: hidden;
 	background-color: #98b6b1;
 	background-size: cover;
-	padding: 0;
+	padding: 0 0 20px;
 
 	h1 {
 		font-size: 400%;
@@ -99,8 +99,9 @@ body {
 
 	.contact{
 		text-align: center;
-		width: fit-content;
-		margin: 20px auto 0px;
+		width: 100%;
+		margin: 10px auto 0px;
+		padding: 10px;
 	}
 	
 	.contact--button{
@@ -108,12 +109,13 @@ body {
 		text-decoration: none;
 		color: #232c2f;
 		text-transform: uppercase;
-		margin-right: 20px;
+		margin-right: 5px;
+		margin-bottom: 5px;
 		background-color: transparent;
 		border: 3px solid white;
 		border-radius: 12px;
-		font-size: 19px;
-		padding: 6px 16px;
+		font-size: 15px;
+		// padding: 5px 15px;
 		transition: all .4s ease;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
 	}
@@ -140,14 +142,14 @@ body {
 	}
 
 	.col-md-4, .col-md-8{
-		margin: 0px 30px !important;
+		margin: 20px 30px !important;
 	}
 
 	.polaroid {
 		background: white;
 		display: inline-block;
 		height: 450px;
-		width: 280px;
+		width: 320px;
 		text-align: center;
 		text-decoration: none;
 		-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -244,6 +246,8 @@ body {
 	}
 }
 
+
+
 // -------PROJECTS COMPONENT-----------
 #portfolio {
 	background: #98b6b1;
@@ -296,30 +300,20 @@ body {
 		cursor: pointer;
 	}
 
-	@media (min-width: 576px) {
-		.bio{
-			font-size: 15px;
-		}
-		.portfolio-item {
-			margin-bottom: 30px;
-		}
-	}
-
 	.foto img {
 		display: block;
 		width: 360px;
 		height: 250px;
 		margin-bottom: 0;
 		padding-bottom: 0;
-		position: relative;
 		border: 1px solid #f5ebd4;
-		object-fit: fill;
+		object-fit:scale-down;
 	}
 
 	.foto div {
 		background: #ffffff;
 		display: inline-block;
-		margin: 0 auto 5% auto;
+		margin: 0 5% 5% !important;
 		padding: 12px 12px 5px;
 		text-align: center;
 		text-decoration: none;
@@ -330,15 +324,6 @@ body {
 		-moz-transition: all .20s linear;
 		transition: all .20s linear;
 		z-index: 0;
-		position: relative;
-	}
-
-	.foto div:after {
-		color: #333;
-		font-size: 25px;
-		content: attr(title);
-		position: relative;
-		top: 15px;
 	}
 
 	.foto div:hover {
@@ -351,6 +336,7 @@ body {
 		box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 	}
 }
+
 
 // -------PROJECT DETAILS SUBCOMPONENT-----------
 .modal-inside .modal-content {
@@ -426,7 +412,7 @@ body {
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 
 	.skills-tile {
 		background-color: transparentize(#F8F5F4, 0.85);
@@ -512,29 +498,22 @@ body {
 		margin-top: 25%;
 		text-align: center;
 	}
-
-	@media only screen and (max-width: 1170px) {
-		.experience-icon {
-			font-size: 170%;
-			margin-top: 27%;
-			text-align: center;
-		}
-	}
 }
 
 // -----FOOTER COMPONENT-----
 footer {
-	background: #232c2f;
+	// background: #232c2f;
+	background: #f5ebd4;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: black;
 	position: relative;
 	text-align: center;
 
 	a{
-		color: #fff;
+		color: #98b6b1;
 	}
 
 	a:hover, footer a:focus, footer a:visited {
@@ -544,5 +523,75 @@ footer {
 	.social-links {
 		margin-top: 50px;
 		font-size: 22px;
+	}
+}
+
+
+// media queries
+
+@media (max-width: 576px){
+	.contact--button {
+		font-size: 12px;
+		padding: 3px 13px;
+	}
+
+	#home {
+		height: 500px !important;
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+
+	.contact{
+		padding: 0px;
+	}
+
+	.header-icon{
+		width: 150px !important;
+		height: 150px !important;
+	}
+	.card{
+		width: 95%;
+	}
+
+	.bio{
+		font-size: 13px !important;
+	}
+
+	.portfolio-item, .foto, .foto div, .foto img{
+		width: 96%;
+	}
+
+	.polaroid{
+		height: 400px !important;
+		width: 95%;
+		padding-bottom: 5px;
+	}
+
+	.polaroid img{
+		margin-bottom: 0px;
+	}
+
+	.polaroid--icon{
+		margin-top: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+	.experience-icon {
+		font-size: 170%;
+		margin-top: 27%;
+		text-align: center;
+	}
+}
+
+@media (min-width: 576px) {
+	.portfolio-item {
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1110px){
+	.foto div{
+		margin-right: 30px !important;
 	}
 }

@@ -15,7 +15,7 @@ export default function App() {
       <About basicInfo={resumeData.basic_info} />
       <Projects projects={resumeData.projects} />
       <Skills skills={resumeData.skills} />
-      <Experience experience={resumeData.experience} />
+      {/* <Experience experience={resumeData.experience} /> */}
       <Footer basicInfo={resumeData.basic_info} />
     </div>
   );
