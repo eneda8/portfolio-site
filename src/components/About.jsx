@@ -14,7 +14,7 @@ export default function About(props) {
         <div className="row pb-lg-5 centered ">
           <div className="col-lg-4 mb-md-5 mr-5 centered">
             <div className="polaroid" >
-                <Image fluid={true} height="250px" src={profilePic} alt="Avatar placeholder"/>
+                <Image className="profilePic" fluid={true} height="250px" src={profilePic} alt="Avatar placeholder"/>
                 <div className="polaroid--icons">
                   <Icon className="polaroid--icon" icon="vscode-icons:file-type-mongo"/>
                   <Icon className="polaroid--icon" icon="simple-icons:express" />
@@ -24,7 +24,7 @@ export default function About(props) {
             </div>   
           </div>
   
-          <div className="col mb-5 centered">
+          <div className="col mb-5 pt-5 pt-lg-0 centered">
             <div className="card px-0">
               <div className="card-header">
                 <span className="iconify" data-icon="emojione:red-circle" data-inline="false"></span>

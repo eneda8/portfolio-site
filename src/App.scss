@@ -13,6 +13,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
 }
 
 .section-title {
@@ -446,6 +448,18 @@ body {
 		text-align: center;
 		position: relative;
 	}
+	
+	#HT:hover > i{color: #E44D26;}
+	#CS:hover > i{color: #1572B6;}
+	#Ja:hover > i{color: #F0DB4F;}
+	#Py:hover > i{color: #ffd846;}
+	#No:hover > i{color: #83CD29;}
+	#Mo:hover > i{color: #4FAA41;}
+	#Ex:hover > i{color: #808080;}
+	#Re:hover > i{color: #61DAFB;}
+	#Sa:hover > i{color: #CB6699;}
+	#Bo:hover > i{color: #8813fc;}
+	#Bu:hover > i{color: #00D1B2;}
 }
 
 // ----------EXPERIENCE COMPONENT------
@@ -549,6 +563,10 @@ footer {
 		width: 150px !important;
 		height: 150px !important;
 	}
+
+	#about{
+		padding: 0 10px;
+	}
 	.card{
 		width: 95%;
 	}
@@ -562,17 +580,35 @@ footer {
 	}
 
 	.polaroid{
-		height: 400px !important;
+		height: 380px !important;
 		width: 95%;
 		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
-	.polaroid img{
+	.profilePic{
 		margin-bottom: 0px;
+		height: 300px !important;
+		object-fit: contain;
 	}
 
 	.polaroid--icon{
 		margin-top: 0px !important;
+	}
+
+	.skills-tile{
+		width: 85px !important;
+		height: 85px !important;
+
+		i{
+			width: 25px;
+			height: 25px;
+		}
+		p{
+			font-size: 12px !important;
+			margin-top: 0 !important;
+		}
 	}
 }
 
