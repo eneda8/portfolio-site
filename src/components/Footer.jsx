@@ -1,6 +1,5 @@
 import React from "react";
 import { nanoid } from "nanoid";
-import resume from "/resume.pdf";
 
 export default function Footer(props){
   const networks = props.basicInfo.social.map(function(network) {

@@ -57,17 +57,18 @@ export default function ProjectDetailsModal(props) {
           </div>
           <div className="col-md-10 mx-auto">
             <h3 className="modal--title">{title} 
-              {url && 
+            </h3>
+            {url && 
               <a href={url} target="_blank" rel="noopener noreferrer" className="link-href">
-                  <i className="fas fa-external-link-alt"></i>
+                Project<i className="fas fa-external-link-alt"></i>
               </a>
               } 
               {git && 
               <a href={git} target="_blank" rel="noopener noreferrer" className="link-href">
-                  <i className="fa-brands fa-square-github fa-lg"></i>
+                Repo<i className="fa-brands fa-square-github fa-lg"></i>
               </a>
               } 
-            </h3>
+              <hr className="pl-5" />
             <p id="desc" className="modal-description" dangerouslySetInnerHTML={{__html: description}}></p>
             <div className="col-md-12 text-center">
               {props.data.technologies && <ul className="list-inline mx-auto">{tech}</ul>}

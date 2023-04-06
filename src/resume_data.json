@@ -24,9 +24,9 @@
           "icon": "fa-solid fa-file-pdf fa-sm"
         }
       ],
-      "image": "profilePic-cropped.png",
+      "image": "profilePic.png",
       "description_header": "Hi 👋 I'm Eneda :)",
-      "description": "I'm a full-stack JavaScript web developer specializing in MongoDB, Express, React, and Node. I strive to create dynamic web applications that are both sophisticated and user-friendly.\n\nAs a lifelong writer, I had always been fascinated by the endless possibilities of coding — which seemed to me a new and exciting art form — but it wasn't until 2020 that I finally began pursuing my curiosity when I decided to take an online web development bootcamp course on Udemy. Since then, through various online courses and projects, I've faced exciting challenges that have allowed me to develop my creative problem-solving abilities and refine my attention to detail. I am most proud of my passion project, t'day, an anonymous social networking site I call ''the world's first collective online journal'', which you can read more about below. \n\nWhen I'm not coding, you can find me writing, exploring the great outdoors, trying out new vegetarian recipes in the kitchen or playing with my beloved cat Rigby. 🐱 If you're looking for someone who is passionate about bringing ideas to life through web development, please don't hesitate to reach out. I'd love to hear from you!"
+      "description": "I'm a full-stack JavaScript web developer specializing in MongoDB, Express, React, and Node. I strive to create dynamic web applications that are both sophisticated and user-friendly.\n\nAs a lifelong writer, I had always been fascinated by the creative possibilities of coding — which seemed to me a new and exciting art form — but it wasn't until 2020 that I finally began pursuing my curiosity when I decided to take an online web development bootcamp course on Udemy. Since then, through various online courses and projects, I've faced exciting challenges that have allowed me to develop my problem-solving abilities and refine my attention to detail. I am most proud of my passion project, t'day, an anonymous social networking site I call ''the world's first collective online journal'', which you can read more about below. \n\nWhen I'm not coding, you can find me writing, exploring the great outdoors, trying out new vegetarian recipes in the kitchen or playing with my beloved cat Rigby. 🐱 If you're looking for someone who is passionate about bringing ideas to life through web development, please don't hesitate to reach out. I'd love to hear from you!"
     },
     "skills": {
       "icons": [
@@ -41,6 +41,10 @@
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain "
+        },
+        {
+          "name": "JQuery",
+          "class": "devicon-jquery-plain"
         },
         {
           "name": "Python",
@@ -73,14 +77,22 @@
         {
           "name": "Bulma",
           "class": "devicon-bulma-plain "
+        },
+        {
+          "name": "Heroku",
+          "class": "devicon-heroku-plain"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain"
         }
       ]
     },
     "projects": [
       {
-        "title": "Yelp Camp",
+        "title": "YelpCamp",
         "startDate": "2020-2021",
-        "description": "The capstone project of Colt Steele's Web Development Bootcamp on Udemy. Yelp but for campgrounds: a fully responsive CRUD app where users can create/edit/remove their own profiles for campgrounds across the country and review others' campground profiles. Yelp Camp features geolocation using <a href='https://www.mapbox.com'>Mapbox</a> and user authentication and authorization using <a href='https://www.passportjs.org'>Passport JS</a>. Layouts were created using <a href='https://www.ejs.co'>EJS</a> and the <a href='https://cloudinary.com/'>Cloudinary</a> API is used for image storage. To see Yelp Camp in action, a demo login account is available with username and password 'e'.",
+        "description": "The capstone project of Colt Steele's Web Developer Bootcamp on Udemy. Yelp but for campgrounds: a fully responsive CRUD app where users can create/edit/remove their own profiles for campgrounds across the country and review others' campground profiles. Yelp Camp features geolocation using <a href='https://www.mapbox.com'>Mapbox</a> and user authentication and authorization using <a href='https://www.passportjs.org'>Passport JS</a>. Layouts were created using <a href='https://www.ejs.co'>EJS</a> and the <a href='https://cloudinary.com/'>Cloudinary</a> API is used for image storage. To see Yelp Camp in action, a demo login account is available with username and password 'e'.",
         "images": [
           "images/portfolio/yelp-camp/1.png",
           "images/portfolio/yelp-camp/2.png",
@@ -114,7 +126,7 @@
       },
       {
         "title": "t'day",
-        "startDate": "2021-2022",
+        "startDate": "2021-2023",
         "description": "",
         "images": [
           "images/portfolio/t'day/1.png",
@@ -211,7 +223,7 @@
         ]
       },
       {
-        "title": "Maze Game",
+        "title": "Maze",
         "startDate": "2020",
         "description": "An in-browser maze game that uses the <a href='https://brm.io/matter-js/'>Matter JS</a> physics engine. A randomized maze is generated using a recursive implementation of a depth-first search algorithm. MatterJS is then used to draw the maze onto the canvas element, map key presses to the movements of the ball shape on the screen and detect collisions between shapes (walls and the end goal). At the end of the game, the walls of the maze are collapsed using a MatterJS animation.",
         "images": [
@@ -331,40 +343,125 @@
         ]
       }
     ],
-    "experience": [
+    "coursework": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
+        "company": "Udemy",
+        "title": "The Web Developer Bootcamp (2018)",
+        "instructor": "Colt Steele",
+        "hours": "47 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-879250f0-680d-4d2a-8384-0ba4394597fb/",
+        "dates": " June - August 2020",
+        "projects": [
+          "YelpCamp",
+          "Patatap Clone",
+          "Color Guessing Game"
         ],
-        "technologies": [
-          "REST API",
-          "RxJS",
+        "topics": [
+          "HTML",
+          "CSS",
           "JavaScript",
+          "JQuery",
+          "REST API",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Node",
+          "MongDB",
+          "Mongoose",
+          "Schema Design",
+          "ExpressJS",
+          "Heroku"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
+        "company": "Udemy",
+        "title": "The Modern Javascript Bootcamp Course (2020)",
+        "instructor": "Colt Steele & Stephen Grider",
+        "hours": "52 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-91ef49f8-8080-4e93-85d1-8037cf92f5a0/",
+        "dates": "August - October 2020",
+        "projects": [
+          "Secret Message",
+          "Maze"
         ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+        "topics": [
+          "Application Design Patterns",
+          "Custom Node JS Command Line Tools",
+          "Canvas API",
+          "Production-Grade Authentication"
+        ]
+      },
+      {
+        "company": "Udemy",
+        "title": "The Web Developer Bootcamp (2021)",
+        "instructor": "Colt Steele",
+        "hours": "64 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-879250f0-680d-4d2a-8384-0ba4394597fb/",
+        "description": "This was a completely rehauled version of the original 2018 bootcamp with an additional 17 hours of instructional time and brand new content.",
+        "dates": "December 2020 - April 2021",
+        "projects": [
+          "YelpCamp",
+          "Movie Fight"
+        ],
+        "topics": [
+          "HTML5",
+          "CSS3",
+          "JavaScript - ES6 syntax",
+          "Bulma",
+          "Maps and Geocoding"
+        ]
+      },
+      {
+        "company": "Udemy",
+        "title": "JavaScript Algorithms and Data Structures Masterclass",
+        "instructor": "Colt Steele",
+        "hours": "22 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-1760ee65-51e9-4c62-9930-5a460c1d5434/",
+        "dates": "May - July 2021",
+        "projects": [
+          ""
+        ],
+        "topics": [
+          "Big O notation",
+          "Recursion",
+          "Searching & Sorting algorithms",
+          "Linked lists",
+          "Trees", 
+          "Heaps",
+          "Hash tables",
+          "Graphs",
+          "Dynamic Programming"
+        ]
+      },
+      {
+        "company": "Udemy",
+        "title": "One Week Python",
+        "instructor": "Colt Steele",
+        "hours": "14.5 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-0fa25aeb-ba95-47af-8b0f-7b5dc791be3f/",
+        "dates": "October 2022",
+        "projects": [
+          ""
+        ],
+        "topics": [
+          "Python fundamentals",
+          "3rd-party modules",
+          "PIP",
+          "OOP"
+        ]
+      },
+      {
+        "company": "Scrimba",
+        "title": "Learn React",
+        "instructor": "Bob Ziroll",
+        "hours": "12 hours",
+        "dates": "March 2023",
+        "projects": [
+          "Tenzies",
+          "Meme Generator"
+        ],
+        "topics": [
+          "React fundamentals"
         ]
       }
+     
     ]
   }

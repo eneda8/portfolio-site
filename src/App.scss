@@ -36,6 +36,10 @@ body {
 	text-align: center;
 }
 
+a{
+	text-decoration: none;
+}
+
 // -------HEADER COMPONENT-----------
 #home {
 	height: 400px;
@@ -167,11 +171,10 @@ body {
 	}
 
 	.polaroid img {
-		display: block;
-		// width: 90%;
 		padding: 0px;
-		margin: 20px 20px 10px;
+		margin: 25px 0px 10px;
 		height: 320px;
+		object-fit: scale-down;
 	}
 
 	.polaroid--icons{
@@ -260,9 +263,8 @@ body {
 		font-weight: 500;
 		// font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		font-family: "Raleway", sans-serif;
-		padding: 8px 15px 6px;
+		padding: 3px 15px 6px;
 		position: relative;
-		z-index: -500;
 		border-radius: 0 0 5px 5px;
 		background-color: #ecd4d5;
 		color: #232c2f;
@@ -270,7 +272,7 @@ body {
 
 	.project-title-settings {
 		margin-top: 5%;
-		font: 18px/24px 'opensans-bold', sans-serif;
+		font: 16px 'opensans-bold', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 3px;
 		color: black;
@@ -295,27 +297,24 @@ body {
 		justify-content: center;
 	}
 
-	.portfolio-item {
-		max-width: 100%;
-		margin-bottom: 15px;
-		text-align: center;
-		cursor: pointer;
-	}
 
 	.foto img {
 		display: block;
-		width: 360px;
-		height: 250px;
+		max-width: 320px;
+		max-height: 202px;
 		margin-bottom: 0;
 		padding-bottom: 0;
 		border: 1px solid #f5ebd4;
-		object-fit:scale-down;
+		object-fit: contain;
 	}
 
-	.foto div {
+	.foto {
+		width: fit-content;
+		height: fit-content;
+		max-height: 350px;
+		margin-bottom: 30px !important;
 		background: #ffffff;
-		display: inline-block;
-		margin: 0 5% 5% !important;
+		margin: 0 1% 1%;
 		padding: 12px 12px 5px;
 		text-align: center;
 		text-decoration: none;
@@ -328,14 +327,23 @@ body {
 		z-index: 0;
 	}
 
-	.foto div:hover {
+	.foto:hover {
 		-webkit-transform: scale(1.01);
 		-moz-transform: scale(1.01);
 		transform: scale(1.01);
-		z-index: 10;
 		-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 		-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 		box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	}
+
+	.foto img {
+		display: block;
+		max-width: 320px;
+		max-height: 202px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border: 1px solid #f5ebd4;
+		object-fit: contain;
 	}
 }
 
@@ -393,11 +401,16 @@ body {
 	}
 
 	.link-href {
-		color: black;
+		// color: black;
+		text-decoration: none;
+		font-size: 13.5px;
+		margin-right: 5px;
+		padding-left: 5px;
 	}
 
-	.link-href i {
-		margin-left: 10px
+	.link-href i{
+		color: black;
+		margin-left: 5px;
 	}
 
 	.modal-description {
@@ -418,7 +431,6 @@ body {
 
 	.skills-tile {
 		background-color: transparentize(#F8F5F4, 0.85);
-		// background-color: #edd7d3;
 		padding: 20px 20px 14px;
 		width: 100px;
 		margin: 5px;
@@ -451,6 +463,7 @@ body {
 	
 	#HT:hover > i{color: #E44D26;}
 	#CS:hover > i{color: #1572B6;}
+	#JQ:hover > i{color: #0868AC;}
 	#Ja:hover > i{color: #F0DB4F;}
 	#Py:hover > i{color: #ffd846;}
 	#No:hover > i{color: #83CD29;}
@@ -460,6 +473,8 @@ body {
 	#Sa:hover > i{color: #CB6699;}
 	#Bo:hover > i{color: #8813fc;}
 	#Bu:hover > i{color: #00D1B2;}
+	#He:hover > i{color: #6762A6;}
+	#Li:hover > i{color: #000000;}
 }
 
 // ----------EXPERIENCE COMPONENT------
@@ -467,18 +482,15 @@ body {
 	background: #f5ebd4;
 	padding-bottom: 72px;
 	
-	.main-badge {
-		font-size: 14px !important;
-		text-align: left !important;
-		padding: 5px 8px 5px 8px !important;
-		vertical-align: baseline;
+	.project-badge {
+		font-size: 12px !important;
+		margin-right: 3px;
 		background-color: #557772 !important;
-		color: white;
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-		z-index: 100;
+		font-weight: 400;
 	}
 
-	.experience-badge {
+	.topic-badge {
 		font-size: 11px !important;
 		text-align: left !important;
 		padding: 5px 8px 5px 8px !important;
@@ -490,17 +502,22 @@ body {
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
 
-	.experience-info {
+	.projects-info {
 		text-align: left;
 		margin-bottom: 4px;
 	}
 
-	.experience-title, .experience-subtitle, .experience--badges-div {
-		text-align: left;
+	.course-title{
+		font-weight: 700;
 	}
 
-	.experience--badges-div {
-		margin-top: 15px;
+	.course-subtitle  {
+		margin-bottom: 10px;
+		font-weight: 600;
+	}
+
+	.topics--badges-div {
+		margin-top: 10px;
 	}
 
 	.vertical-timeline-element-date{
@@ -508,7 +525,7 @@ body {
 	}
 
 	.experience-icon {
-		font-size: 300%;
+		font-size: 250%;
 		margin-top: 25%;
 		text-align: center;
 	}
@@ -516,18 +533,17 @@ body {
 
 // -----FOOTER COMPONENT-----
 footer {
-	// background: #232c2f;
-	background: #f5ebd4;
+	background: #232c2f;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: black;
+	color: white;
 	position: relative;
 	text-align: center;
 
 	a{
-		color: #98b6b1;
+		color: white;
 	}
 
 	a:hover, footer a:focus, footer a:visited {
@@ -575,8 +591,12 @@ footer {
 		font-size: 13px !important;
 	}
 
-	.portfolio-item, .foto, .foto div, .foto img{
+	.foto, .foto img{
 		width: 96%;
+	}
+
+	.foto{
+		margin-bottom: 20px !important;
 	}
 
 	.polaroid{
@@ -597,6 +617,10 @@ footer {
 		margin-top: 0px !important;
 	}
 
+	.modal-content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 	.skills-tile{
 		width: 85px !important;
 		height: 85px !important;

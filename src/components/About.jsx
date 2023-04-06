@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import profilePic from "/images/profilePic-cropped.png";
+import profilePic from "/images/profilePic.png";
 import Image from 'react-bootstrap/Image'
 
 export default function About(props) {
