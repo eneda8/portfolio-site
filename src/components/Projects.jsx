@@ -25,7 +25,7 @@ export default function Projects(props) {
 
   const projects = props.projects.map((project) =>{
     return (
-      <div className="col-xs-12 col-sm-4 col-md-3 mx-s-5 foto" key={nanoid()} onClick={()=> handleShow(project)}>
+      <div className="col-sm-4 col-md-3 foto mx-3" key={nanoid()} onClick={()=> handleShow(project)}>
         <Image fluid={true} src={project.images[0]} alt="projectImages"/>
         <span className="project-date">{project.startDate}</span>
         <p className="project-title-settings mt-3">{project.title}</p>
@@ -38,8 +38,10 @@ export default function Projects(props) {
       <h1 className="section-title mb-0 pb-4">
         Projects
       </h1>
-      <h2 className="subheading mb-4">Full-Stack Apps</h2>
-      <div id="full-stack" className="mb-0">{projects.slice(0,2)}</div>
+      <h3 className="subheading mb-4">Full-Stack Apps</h3>
+      <div className="m-0 p-0">
+        <div id="full-stack" className="row mb-0 w-100 mx-0 px-0">{projects.slice(0,2)}</div>
+      </div>
       <Button 
         className="button mb-4" 
         onClick={() => setOpen(!open)} 
@@ -50,8 +52,8 @@ export default function Projects(props) {
       </Button>
       <Collapse in={open} timeout={"500"}>
         <div id="collapse m-0 p-0">
-          <h2 className="subheading mb-4 mt-1">Front-End Apps & Games</h2>
-          <div id="front-end" className="row">{projects.slice(2)}</div>
+          <h3 className="subheading mb-4 mt-1">Front-End Apps & Games</h3>
+          <div id="front-end" className="row w-100 mx-0 px-0">{projects.slice(2)}</div>
         </div>
       </Collapse>
       <ProjectDetailsModal
