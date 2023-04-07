@@ -2,6 +2,8 @@ import React from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 import { nanoid } from "nanoid";
 import Image from 'react-bootstrap/Image'
+import Collapse from 'react-bootstrap/Collapse';
+import Button from 'react-bootstrap/Button';
 
 const defaultDetails = {
   title: "",
@@ -19,6 +21,8 @@ export default function Projects(props) {
   const handleClose = () => setModal({modalShow:false, modalDetails: defaultDetails});
   const handleShow = (data) => setModal({modalShow: true, modalDetails: data});
   
+  const [open, setOpen] = React.useState(false);
+
   const projects = props.projects.map((project) =>{
     return (
       <div className="col-xs-12 col-sm-4 col-md-3 mx-s-5 foto" key={nanoid()} onClick={()=> handleShow(project)}>
@@ -31,18 +35,30 @@ export default function Projects(props) {
     
   return (
     <section id="portfolio">
-      <h1 className="section-title" style={{"paddingBottom": "3%"}}>
+      <h1 className="section-title mb-0 pb-4">
         Projects
       </h1>
-        <h2 className='subheading'>Full-Stack Apps</h2>
-        <div className="full-stack row mb-5">{projects.slice(0,2)}</div>
-        <h2 className='subheading'>Front-End Apps & Games</h2>
-        <div className="front-end row">{projects.slice(2)}</div>
+      <h2 className="subheading mb-4">Full-Stack Apps</h2>
+      <div id="full-stack" className="mb-0">{projects.slice(0,2)}</div>
+      <Button 
+        className="button mb-4" 
+        onClick={() => setOpen(!open)} 
+        aria-controls="collapse" 
+        aria-expanded={open}
+        >
+        Show {!open? 'more' : 'less'}
+      </Button>
+      <Collapse in={open} timeout={"500"}>
+        <div id="collapse m-0 p-0">
+          <h2 className="subheading mb-4 mt-1">Front-End Apps & Games</h2>
+          <div id="front-end" className="row">{projects.slice(2)}</div>
+        </div>
+      </Collapse>
       <ProjectDetailsModal
-        show={modal.modalShow}
-        onHide={handleClose}
-        data={modal.modalDetails}
-        />
+      show={modal.modalShow}
+      onHide={handleClose}
+      data={modal.modalDetails}
+      />
     </section>
   );
 };

@@ -25,12 +25,9 @@ export default function Header(props) {
 
   const networks = props.basicInfo.social.slice(0, -1).map(function(network) {
     return (
-      // <a key={nanoid()} className="contact--button" href={network.url} target="_blank" rel="noopener noreferrer">
-      //   <i className={network.icon}></i> {network.name}
-      // </a>
-      <Button key={nanoid()} size="lg" className="contact--button" href={network.url} target="_blank" rel="noopener noreferrer">
-      <i className={network.icon}></i> {network.name}
-    </Button>
+      <Button key={nanoid()} size="lg" className="button" href={network.url} target="_blank" rel="noopener noreferrer">
+        <i className={network.icon}></i> {network.name}
+      </Button>
     );
   });
 

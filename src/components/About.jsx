@@ -40,7 +40,7 @@ export default function About(props) {
                   <div className="col-1 p-0"></div>
                   <div className="mini-main card-body col-sm-10 px-5" >
                     <h2 id="wave">{header}</h2>
-                    <p className="bio" style={{whiteSpace: "pre-wrap"}}>{bio}</p>
+                    <p className="bio" style={{whiteSpace: "pre-wrap"}}  dangerouslySetInnerHTML={{__html: bio}}></p>
                   </div>
                   <div className="col-1 p-0"></div>
                   <div className="mini-footer"></div>

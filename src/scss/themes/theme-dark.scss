@@ -14,6 +14,13 @@ body[data-theme="dark"] {
       color: white !important;
    }
 
+   .button{
+      background-color: white;
+   }
+   .button:hover{
+      background-color: #edd7d3;
+   }
+
    #home{
       background-color: #4c6b66;
       h1 {
@@ -26,13 +33,6 @@ body[data-theme="dark"] {
 
       .header-icon {
          color: #1f1f1f;
-      }
-
-      .contact--button{
-         background-color: white;
-      }
-      .contact--button:hover{
-         background-color: #edd7d3;
       }
    }
 
