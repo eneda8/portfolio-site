@@ -20,7 +20,7 @@ export default function Header(props) {
   const titles = props.basicInfo.titles.map(title => [ title.toUpperCase(), 1500 ] ).flat();
   
   const HeaderTitleTypeAnimation = React.memo(() => {
-    return <Typical className="title-styles" steps={titles} loop={50} />
+    return <Typical className="title-styles" steps={titles} loop={50}/>
   });
 
   const networks = props.basicInfo.social.slice(0, -1).map(function(network) {
