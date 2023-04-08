@@ -436,10 +436,22 @@ a{
 	overflow: hidden;
 	padding-bottom: 5%;
 
+	.skills-container {
+		display: flex;
+		justify-content: center;
+		font-size: 180%;
+		color: white;
+		text-align: center;
+		margin: 0 20%;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+
 	.skills-tile {
 		background-color: transparentize(#F8F5F4, 0.85);
 		padding: 20px 20px 14px;
 		width: 100px;
+		height: 100px;
 		margin: 5px;
 		border-radius: 8px;
 	}
@@ -461,13 +473,6 @@ a{
 		margin-bottom: 0;
 	}
 
-	.skill-icon {
-		font-size: 180%;
-		color: white;
-		text-align: center;
-		position: relative;
-	}
-	
 	#HT:hover > i{color: #E44D26;}
 	#CS:hover > i{color: #1572B6;}
 	#JQ:hover > i{color: #0868AC;}
@@ -640,6 +645,10 @@ footer {
 			font-size: 12px !important;
 			margin-top: 0 !important;
 		}
+	}
+	.skills-container{
+		margin: 0 2% !important;
+		padding: 0 !important;
 	}
 }
 
