@@ -166,7 +166,7 @@
       {
         "title": "Tenzies",
         "startDate": "2023",
-        "description": "A React version of the popular dice game Tenzi, created as part of the Learn React course on Scrimba. The game is played by 'freezing' one or more randomly generated dice and rolling the rest until all 10 dice match. The values of the selected die are held in state and the react effect hook is used to track and detect the winning outcome. The game is fully responsive and features a confetti animation that plays when the user wins.",
+        "description": "A React version of the popular dice game Tenzi, created as part of the Learn React course on Scrimba. The game is played by 'freezing' one or more randomly generated dice and rolling the rest until all 10 dice match. The values of the selected dice are held in state and the React effect hook is used to track and detect the winning outcome. The game is fully responsive and was updated to include a timer, roll counter, and pips on the dice faces, as well as a confetti animation at the end of the game.",
         "images": [
           "images/portfolio/tenzies/1.png",
           "images/portfolio/tenzies/2.png",
@@ -196,7 +196,7 @@
       {
         "title": "Meme Generator",
         "startDate": "2023",
-        "description": "This app works by fetching a random meme image from the <a href='https://imgflip.com/api'>Imgflip API</a>. Both the meme data and the values of the user input for top and bottom text are held in state, allowing the user to create a personalized meme.",
+        "description": "This app works by fetching a random meme image from the <a href='https://imgflip.com/api'>Imgflip API</a>. Both the meme data and the values of the user input for top and bottom text are held in state, allowing the user to create a personalized meme. The project was recently updated to include download functionality.",
         "images": [
           "images/portfolio/meme-generator/1.png",
           "images/portfolio/meme-generator/2.png"
