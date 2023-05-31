@@ -345,123 +345,122 @@
     ],
     "coursework": [
       {
-        "company": "Udemy",
-        "title": "The Web Developer Bootcamp (2018)",
-        "instructor": "Colt Steele",
-        "hours": "47 hours",
-        "certificate": "images/wdb.jpg",
-        "dates": " June - August 2020",
-        "projects": [
-          "YelpCamp",
-          "Patatap Clone",
-          "Color Guessing Game"
-        ],
-        "topics": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "JQuery",
-          "REST API",
-          "Bootstrap",
-          "Node",
-          "MongDB",
-          "Mongoose",
-          "Schema Design",
-          "ExpressJS",
-          "Heroku"
-        ]
+      "company": "Scrimba",
+      "title": "Learn React",
+      "instructor": "Bob Ziroll",
+      "hours": "12 hours",
+      "dates": "March 2023",
+      "projects": [
+      "Tenzies",
+      "Meme Generator"
+      ],
+      "topics": [
+      "React fundamentals"
+      ]
       },
       {
-        "company": "Udemy",
-        "title": "The Modern Javascript Bootcamp Course (2020)",
-        "instructor": "Colt Steele & Stephen Grider",
-        "hours": "52 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-91ef49f8-8080-4e93-85d1-8037cf92f5a0/",
-        "dates": "August - October 2020",
-        "projects": [
-          "Secret Message",
-          "Maze"
-        ],
-        "topics": [
-          "Application Design Patterns",
-          "Custom Node JS Command Line Tools",
-          "Canvas API",
-          "Production-Grade Authentication"
-        ]
+      "company": "Udemy",
+      "title": "One Week Python",
+      "instructor": "Colt Steele",
+      "hours": "14.5 hours",
+      "certificate": "https://www.udemy.com/certificate/UC-0fa25aeb-ba95-47af-8b0f-7b5dc791be3f/",
+      "dates": "October 2022",
+      "projects": [
+      ""
+      ],
+      "topics": [
+      "Python fundamentals",
+      "3rd-party modules",
+      "PIP",
+      "OOP"
+      ]
       },
       {
-        "company": "Udemy",
-        "title": "The Web Developer Bootcamp (2021)",
-        "instructor": "Colt Steele",
-        "hours": "64 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-879250f0-680d-4d2a-8384-0ba4394597fb/",
-        "description": "This was a completely rehauled version of the original 2018 bootcamp with an additional 17 hours of instructional time and brand new content.",
-        "dates": "December 2020 - April 2021",
-        "projects": [
-          "YelpCamp",
-          "Movie Fight"
-        ],
-        "topics": [
-          "HTML5",
-          "CSS3",
-          "JavaScript - ES6 syntax",
-          "Bulma",
-          "Maps and Geocoding"
-        ]
+      "company": "Udemy",
+      "title": "JavaScript Algorithms and Data Structures Masterclass",
+      "instructor": "Colt Steele",
+      "hours": "22 hours",
+      "certificate": "https://www.udemy.com/certificate/UC-1760ee65-51e9-4c62-9930-5a460c1d5434/",
+      "dates": "May - July 2021",
+      "projects": [
+      ""
+      ],
+      "topics": [
+      "Big O notation",
+      "Recursion",
+      "Searching & Sorting algorithms",
+      "Linked lists",
+      "Trees",
+      "Heaps",
+      "Hash tables",
+      "Graphs",
+      "Dynamic Programming"
+      ]
       },
       {
-        "company": "Udemy",
-        "title": "JavaScript Algorithms and Data Structures Masterclass",
-        "instructor": "Colt Steele",
-        "hours": "22 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-1760ee65-51e9-4c62-9930-5a460c1d5434/",
-        "dates": "May - July 2021",
-        "projects": [
-          ""
-        ],
-        "topics": [
-          "Big O notation",
-          "Recursion",
-          "Searching & Sorting algorithms",
-          "Linked lists",
-          "Trees", 
-          "Heaps",
-          "Hash tables",
-          "Graphs",
-          "Dynamic Programming"
-        ]
+      "company": "Udemy",
+      "title": "The Web Developer Bootcamp (2021)",
+      "instructor": "Colt Steele",
+      "hours": "64 hours",
+      "certificate": "https://www.udemy.com/certificate/UC-879250f0-680d-4d2a-8384-0ba4394597fb/",
+      "description": "This was a completely rehauled version of the original 2018 bootcamp with an additional 17 hours of instructional time and brand new content.",
+      "dates": "December 2020 - April 2021",
+      "projects": [
+      "YelpCamp",
+      "Movie Fight"
+      ],
+      "topics": [
+      "HTML5",
+      "CSS3",
+      "JavaScript - ES6 syntax",
+      "Bulma",
+      "Maps and Geocoding"
+      ]
       },
       {
-        "company": "Udemy",
-        "title": "One Week Python",
-        "instructor": "Colt Steele",
-        "hours": "14.5 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-0fa25aeb-ba95-47af-8b0f-7b5dc791be3f/",
-        "dates": "October 2022",
-        "projects": [
-          ""
-        ],
-        "topics": [
-          "Python fundamentals",
-          "3rd-party modules",
-          "PIP",
-          "OOP"
-        ]
+      "company": "Udemy",
+      "title": "The Modern Javascript Bootcamp Course (2020)",
+      "instructor": "Colt Steele & Stephen Grider",
+      "hours": "52 hours",
+      "certificate": "https://www.udemy.com/certificate/UC-91ef49f8-8080-4e93-85d1-8037cf92f5a0/",
+      "dates": "August - October 2020",
+      "projects": [
+      "Secret Message",
+      "Maze"
+      ],
+      "topics": [
+      "Application Design Patterns",
+      "Custom Node JS Command Line Tools",
+      "Canvas API",
+      "Production-Grade Authentication"
+      ]
       },
       {
-        "company": "Scrimba",
-        "title": "Learn React",
-        "instructor": "Bob Ziroll",
-        "hours": "12 hours",
-        "dates": "March 2023",
-        "projects": [
-          "Tenzies",
-          "Meme Generator"
-        ],
-        "topics": [
-          "React fundamentals"
-        ]
+      "company": "Udemy",
+      "title": "The Web Developer Bootcamp (2018)",
+      "instructor": "Colt Steele",
+      "hours": "47 hours",
+      "certificate": "images/wdb.jpg",
+      "dates": "June - August 2020",
+      "projects": [
+      "YelpCamp",
+      "Patatap Clone",
+      "Color Guessing Game"
+      ],
+      "topics": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JQuery",
+      "REST API",
+      "Bootstrap",
+      "Node",
+      "MongDB",
+      "Mongoose",
+      "Schema Design",
+      "ExpressJS",
+      "Heroku"
+      ]
       }
-     
-    ]
+      ]
   }
