@@ -43,6 +43,10 @@
           "class": "devicon-javascript-plain "
         },
         {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain "
+        },
+        {
           "name": "JQuery",
           "class": "devicon-jquery-plain"
         },
