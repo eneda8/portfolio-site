@@ -87,6 +87,10 @@
           "class": "devicon-heroku-plain"
         },
         {
+          "name": "Webpack",
+          "class": "devicon-webpack-plain"
+        },
+        {
           "name": "Linux",
           "class": "devicon-linux-plain"
         }
@@ -348,6 +352,20 @@
       }
     ],
     "coursework": [
+      {
+        "company": "Udemy",
+        "title": "Mastering TypeScript - 2023 Edition",
+        "instructor": "Colt Steele",
+        "hours": "10.5 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-4a3864fd-4cb3-46c0-b476-92961da04377/",
+        "dates": "August 2023",
+        "projects": [],
+        "topics": [
+        "TypeScript fundamentals",
+        "TypeScript + React",
+        "TypeScript + Webpack"
+        ]
+        },
       {
       "company": "Scrimba",
       "title": "Learn React",
