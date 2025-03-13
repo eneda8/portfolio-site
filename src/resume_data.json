@@ -17,11 +17,6 @@
           "name": "Email",
           "url": "mailto:enedaxhambazi@gmail.com",
           "icon": "fa fa-envelope"
-        },
-        {
-          "name": "Resume",
-          "url": "resume.pdf",
-          "icon": "fa-solid fa-file-pdf fa-sm"
         }
       ],
       "image": "profilePic.JPG",
