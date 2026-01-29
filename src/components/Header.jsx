@@ -1,6 +1,6 @@
 import React from "react";
 import Switch from "react-switch";
-import Typical from "react-typical";
+import Typewriter from "./Typewriter";
 import {nanoid} from "nanoid";
 import Button from 'react-bootstrap/Button';
 
@@ -18,9 +18,9 @@ export default function Header(props) {
 
   const fullName = props.basicInfo.name;
   const titles = props.basicInfo.titles.map(title => [ title.toUpperCase(), 1500 ] ).flat();
-  
+
   const HeaderTitleTypeAnimation = React.memo(() => {
-    return <Typical className="title-styles" steps={titles} loop={50}/>
+    return <Typewriter className="title-styles" steps={titles} loop={50} />
   });
 
   const networks = props.basicInfo.social.slice(0, -1).map(function(network) {

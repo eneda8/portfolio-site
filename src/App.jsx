@@ -15,7 +15,9 @@ export default function App() {
       <About basicInfo={resumeData.basic_info} />
       <Projects projects={resumeData.projects} />
       <Skills skills={resumeData.skills} />
-      <Coursework coursework={resumeData.coursework} />
+      {Array.isArray(resumeData.coursework) && resumeData.coursework.length > 0 && (
+        <Coursework coursework={resumeData.coursework} />
+      )}
       <Footer basicInfo={resumeData.basic_info} />
     </div>
   );

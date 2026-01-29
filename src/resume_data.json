@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Eneda Xhambazi",
-      "titles": [ "Front-End Developer", "Full-Stack Web Developer", "Software Engineer", "Software Developer"],
+      "titles": ["Frontend Engineer", "UI Developer", "React & TypeScript"],
       "social": [
         {
           "name": "Github",
@@ -20,90 +20,118 @@
         }
       ],
       "image": "profilePic.JPG",
-      "description_header": "Hi 👋 I'm Eneda :)",
-      "description": "I am a skilled full-stack JavaScript web developer with extensive experience in MongoDB, Express, React, and Node. I create dynamic web applications that are both sophisticated and user-friendly.\n\nAs a lifelong writer (and an internet junkie), I've always been fascinated by the creative potential of coding — learning to code had been on my bucket list for years. I finally decided to pursue my curiosity in 2020 when I enrolled in a bootcamp course on Udemy. Since then, I've discovered a number of similarities between writing and coding: both demand razor-sharp precision, impeccable attention to detail, and the ability to think logically and abstractly. These are all skills that I've honed by completing various online courses and personal projects. I am particularly proud of <a href='https://www.tday.co'>t'day</a>, my passion project, which is a revolutionary anonymous social networking site that serves as the world's first collective online journal.\n\nIf you're seeking a motivated, detail-oriented web developer with a passion for bringing ideas to life, I'd love to hear from you!"
+      "description_header": "Hi, I'm Eneda",
+      "description": "Frontend engineer with a background in executive support and a love for building things that work beautifully. I taught myself to code in 2020 and haven't stopped — 200+ hours of coursework, two production apps, and now reviewing frontend code professionally as an AI trainer.\n\nI bring the same precision from 7+ years of supporting senior leadership to my code: clean, organized, deadline-driven. Currently focused on React, TypeScript, and modern frontend tooling.\n\nCheck out <a href='https://findnearby.us'>Nearby</a>, a location discovery app built with Next.js and Google Maps, or <a href='https://www.tday.co'>t'day</a>, a full-stack social platform I built from scratch."
     },
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain "
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain "
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain "
+          "name": "React",
+          "class": "devicon-react-original"
         },
         {
           "name": "TypeScript",
-          "class": "devicon-typescript-plain "
+          "class": "devicon-typescript-plain"
         },
         {
-          "name": "JQuery",
-          "class": "devicon-jquery-plain"
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "Next.js",
+          "class": "devicon-nextjs-plain"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "name": "HTML5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "Tailwind",
+          "class": "devicon-tailwindcss-plain"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain"
+        },
+        {
+          "name": "Vitest",
+          "class": "devicon-vitest-plain"
+        },
+        {
+          "name": "Figma",
+          "class": "devicon-figma-plain"
+        },
+        {
+          "name": "Vite",
+          "class": "devicon-vitejs-plain"
         },
         {
           "name": "Python",
           "class": "devicon-python-plain"
-        },
-        {
-          "name": "Node.js",
-          "class": "devicon-nodejs-plain "
-        },        
-        {
-          "name": "MongoDB",
-          "class": "devicon-mongodb-plain " 
-        },
-        {
-          "name": "Express",
-          "class": "devicon-express-original "
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-original "
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original "
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain "
-        },
-        {
-          "name": "Bulma",
-          "class": "devicon-bulma-plain "
-        },
-        {
-          "name": "Heroku",
-          "class": "devicon-heroku-plain"
-        },
-        {
-          "name": "Webpack",
-          "class": "devicon-webpack-plain"
-        },
-        {
-          "name": "Linux",
-          "class": "devicon-linux-plain"
         }
       ]
     },
     "projects": [
       {
-        "title": "YelpCamp",
-        "startDate": "2020-2021",
-        "description": "The capstone project of Colt Steele's Web Developer Bootcamp on Udemy. Yelp but for campgrounds: a fully responsive CRUD app where users can create/edit/remove their own profiles for campgrounds across the country and review others' campground profiles. Yelp Camp features geolocation using <a href='https://www.mapbox.com'>Mapbox</a> and user authentication and authorization using <a href='https://www.passportjs.org'>Passport JS</a>. Layouts were created using <a href='https://www.ejs.co'>EJS</a> and the <a href='https://cloudinary.com/'>Cloudinary</a> API is used for image storage. To see Yelp Camp in action, a demo login account is available with username and password 'e'.",
+        "title": "Nearby",
+        "startDate": "2024",
+        "description": "Nearby helps users discover interesting places close to any address they enter. It supports sophisticated category search, interactive map results, and lets users pin locations they want to visit. Built with a focus on performance and usability. <hr><h4>Features</h4><ul><li><b>Category search</b>: filter by place types and custom categories.</li><li><b>Pinning</b>: users can save places they want to visit.</li><li><b>Fast geocoding</b> and map-based results.</li></ul>",
         "images": [
-          "images/portfolio/yelp-camp/1.png",
-          "images/portfolio/yelp-camp/2.png",
-          "images/portfolio/yelp-camp/3.png",
-          "images/portfolio/yelp-camp/4.png"
+          "images/portfolio/nearby/nearby_screenshot.png"
         ],
-        "git": "https://github.com/eneda8/yelp-camp",
-        "url": "https://secret-fortress-70149.herokuapp.com/",
+        "git": "https://github.com/eneda8/nearby",
+        "url": "https://www.nearbyirl.com/",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain ",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original ",
+            "name": "React"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Google Maps API"
+          }
+        ]
+      },
+      {
+        "title": "t'day",
+        "startDate": "2021-present",
+        "description": "t'day is the world's first collective online journal where users rate today (their day as they perceive it) on a scale of 1-5. t’day asks for basic demographic information on signup (age group, country, and gender) and displays aggregate average rating scores in real time across those demographics.  Along with their 1-5 star rating, users may also attach an anonymous journal entry and can also comment anonymously on others' entries.<hr><h4>Features</h4><ul><li><b>Charts</b>: t’day compares data between demographic categories daily and over time and displays the data in graphs and charts.</li><li><b>Home page</b>: a randomized ‘timeline’ which displays 10 anonymous ratings at a time that can be filtered by demographic category.</li><li><b>Write</b>: a private page where the user can write private, encrypted journal entries with no character limit that are not tied to their daily public ratings.</li><li><b>User profiles</b>: private profiles that show the user’s history of ratings, comments, bookmarks, and journal entries.</li><li><b>Search</b>: a comprehensive search page paginates results, highlights search terms, and allows the user to filter entries based on demographic categories.</li></ul><hr>MongoDB and MongoDB Charts were used for data aggregation and visualization. <a href='https://www.npmjs.com/package/mongoose-field-encryption'>Mongoose-field-encryption<a/> was used for journal encryption. EJS was used for templating, PassportJS for authentication, and Cloudinary for image storage. To see t'day in action, log in with username 'demo' and password 'Demo123!'. Or make your own account and help build t'day's userbase! :)",
+        "images": [
+          "images/portfolio/t'day/1.png",
+          "images/portfolio/t'day/2.png",
+          "images/portfolio/t'day/3.png",
+          "images/portfolio/t'day/4.png",
+          "images/portfolio/t'day/5.png",
+          "images/portfolio/t'day/6.png",
+          "images/portfolio/t'day/7.png",
+          "images/portfolio/t'day/8.png"
+        ],
+        "git": "https://www.github.com/eneda8/tday",
+        "url": "https://www.tday.co",
         "technologies": [
           {
             "class": "devicon-javascript-plain ",
@@ -128,21 +156,17 @@
         ]
       },
       {
-        "title": "t'day",
-        "startDate": "2021-present",
-        "description": "t'day is the world's first collective online journal where users rate today (their day as they perceive it) on a scale of 1-5. t’day asks for basic demographic information on signup (age group, country, and gender) and displays aggregate average rating scores in real time across those demographics.  Along with their 1-5 star rating, users may also attach an anonymous journal entry and can also comment anonymously on others' entries.<hr><h4>Features</h4><ul><li><b>Charts</b>: t’day compares data between demographic categories daily and over time and displays the data in graphs and charts.</li><li><b>Home page</b>: a randomized ‘timeline’ which displays 10 anonymous ratings at a time that can be filtered by demographic category.</li><li><b>Write</b>: a private page where the user can write private, encrypted journal entries with no character limit that are not tied to their daily public ratings.</li><li><b>User profiles</b>: private profiles that show the user’s history of ratings, comments, bookmarks, and journal entries.</li><li><b>Search</b>: a comprehensive search page paginates results, highlights search terms, and allows the user to filter entries based on demographic categories.</li></ul><hr>MongoDB and MongoDB Charts were used for data aggregation and visualization. <a href='https://www.npmjs.com/package/mongoose-field-encryption'>Mongoose-field-encryption<a/> was used for journal encryption. EJS was used for templating, PassportJS for authentication, and Cloudinary for image storage. To see t'day in action, log in with username 'demo' and password 'Demo123!'. Or make your own account and help build t'day's userbase! :)",
+        "title": "YelpCamp",
+        "startDate": "2020-2021",
+        "description": "The capstone project of Colt Steele's Web Developer Bootcamp on Udemy. Yelp but for campgrounds: a fully responsive CRUD app where users can create/edit/remove their own profiles for campgrounds across the country and review others' campground profiles. Yelp Camp features geolocation using <a href='https://www.mapbox.com'>Mapbox</a> and user authentication and authorization using <a href='https://www.passportjs.org'>Passport JS</a>. Layouts were created using <a href='https://www.ejs.co'>EJS</a> and the <a href='https://cloudinary.com/'>Cloudinary</a> API is used for image storage. To see Yelp Camp in action, a demo login account is available with username and password 'e'.",
         "images": [
-          "images/portfolio/t'day/1.png",
-          "images/portfolio/t'day/2.png",
-          "images/portfolio/t'day/3.png",
-          "images/portfolio/t'day/4.png",
-          "images/portfolio/t'day/5.png",
-          "images/portfolio/t'day/6.png",
-          "images/portfolio/t'day/7.png",
-          "images/portfolio/t'day/8.png"
+          "images/portfolio/yelp-camp/1.png",
+          "images/portfolio/yelp-camp/2.png",
+          "images/portfolio/yelp-camp/3.png",
+          "images/portfolio/yelp-camp/4.png"
         ],
-        "git": "https://www.github.com/eneda8/tday",
-        "url": "https://www.tday.co",
+        "git": "https://github.com/eneda8/yelp-camp",
+        "url": "https://secret-fortress-70149.herokuapp.com/",
         "technologies": [
           {
             "class": "devicon-javascript-plain ",
@@ -348,6 +372,19 @@
     ],
     "coursework": [
       {
+        "company": "Scrum.org",
+        "title": "Professional Scrum Fundamentals",
+        "instructor": "",
+        "hours": "6 hours",
+        "certificate": "images/certificates/Professional Scrum Master I.pdf",
+        "dates": "September 2025",
+        "projects": [],
+        "topics": [
+        "Agile Methodologies",
+        "Scrum Framework"
+        ]
+      },
+      {
         "company": "Udemy",
         "title": "Mastering TypeScript - 2023 Edition",
         "instructor": "Colt Steele",
@@ -356,128 +393,89 @@
         "dates": "August 2023",
         "projects": [],
         "topics": [
-        "TypeScript fundamentals",
-        "TypeScript + React",
-        "TypeScript + Webpack"
+          "TypeScript fundamentals",
+          "TypeScript + React",
+          "TypeScript + Webpack"
         ]
-        },
-      {
-      "company": "Scrimba",
-      "title": "Learn React",
-      "instructor": "Bob Ziroll",
-      "hours": "12 hours",
-      "dates": "March 2023",
-      "projects": [
-      "Tenzies",
-      "Meme Generator"
-      ],
-      "topics": [
-      "React fundamentals"
-      ]
       },
       {
-      "company": "Udemy",
-      "title": "One Week Python",
-      "instructor": "Colt Steele",
-      "hours": "14.5 hours",
-      "certificate": "https://www.udemy.com/certificate/UC-0fa25aeb-ba95-47af-8b0f-7b5dc791be3f/",
-      "dates": "October 2022",
-      "projects": [
-      ""
-      ],
-      "topics": [
-      "Python fundamentals",
-      "3rd-party modules",
-      "PIP",
-      "OOP"
-      ]
+        "company": "Scrimba",
+        "title": "Learn React",
+        "instructor": "Bob Ziroll",
+        "hours": "12 hours",
+        "dates": "March 2023",
+        "projects": [
+          "Tenzies",
+          "Meme Generator"
+        ],
+        "topics": [
+          "React fundamentals",
+          "Hooks",
+          "State management"
+        ]
       },
       {
-      "company": "Udemy",
-      "title": "JavaScript Algorithms and Data Structures Masterclass",
-      "instructor": "Colt Steele",
-      "hours": "22 hours",
-      "certificate": "https://www.udemy.com/certificate/UC-1760ee65-51e9-4c62-9930-5a460c1d5434/",
-      "dates": "May - July 2021",
-      "projects": [
-      ""
-      ],
-      "topics": [
-      "Big O notation",
-      "Recursion",
-      "Searching & Sorting algorithms",
-      "Linked lists",
-      "Trees",
-      "Heaps",
-      "Hash tables",
-      "Graphs",
-      "Dynamic Programming"
-      ]
+        "company": "Udemy",
+        "title": "One Week Python",
+        "instructor": "Colt Steele",
+        "hours": "14.5 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-0fa25aeb-ba95-47af-8b0f-7b5dc791be3f/",
+        "dates": "October 2022",
+        "projects": [],
+        "topics": [
+          "Python fundamentals",
+          "3rd-party modules",
+          "PIP",
+          "OOP"
+        ]
       },
       {
-      "company": "Udemy",
-      "title": "The Web Developer Bootcamp (2021)",
-      "instructor": "Colt Steele",
-      "hours": "64 hours",
-      "certificate": "https://www.udemy.com/certificate/UC-879250f0-680d-4d2a-8384-0ba4394597fb/",
-      "description": "This was a completely rehauled version of the original 2018 bootcamp with an additional 17 hours of instructional time and brand new content.",
-      "dates": "December 2020 - April 2021",
-      "projects": [
-      "YelpCamp",
-      "Movie Fight"
-      ],
-      "topics": [
-      "HTML5",
-      "CSS3",
-      "JavaScript - ES6 syntax",
-      "Bulma",
-      "Maps and Geocoding"
-      ]
+        "company": "Udemy",
+        "title": "JavaScript Algorithms and Data Structures Masterclass",
+        "instructor": "Colt Steele",
+        "hours": "22 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-1760ee65-51e9-4c62-9930-5a460c1d5434/",
+        "dates": "May - July 2021",
+        "projects": [],
+        "topics": [
+          "Big O notation",
+          "Recursion",
+          "Searching & Sorting algorithms",
+          "Linked lists, Trees, Heaps",
+          "Hash tables, Graphs",
+          "Dynamic Programming"
+        ]
       },
       {
-      "company": "Udemy",
-      "title": "The Modern Javascript Bootcamp Course (2020)",
-      "instructor": "Colt Steele & Stephen Grider",
-      "hours": "52 hours",
-      "certificate": "https://www.udemy.com/certificate/UC-91ef49f8-8080-4e93-85d1-8037cf92f5a0/",
-      "dates": "August - October 2020",
-      "projects": [
-      "Secret Message",
-      "Maze"
-      ],
-      "topics": [
-      "Application Design Patterns",
-      "Custom Node JS Command Line Tools",
-      "Canvas API",
-      "Production-Grade Authentication"
-      ]
+        "company": "Udemy",
+        "title": "The Web Developer Bootcamp",
+        "instructor": "Colt Steele",
+        "hours": "64 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-879250f0-680d-4d2a-8384-0ba4394597fb/",
+        "dates": "2020 - 2021",
+        "projects": [
+          "YelpCamp"
+        ],
+        "topics": [
+          "HTML5, CSS3, JavaScript ES6",
+          "Node.js, Express, MongoDB",
+          "RESTful APIs",
+          "Authentication & Authorization"
+        ]
       },
       {
-      "company": "Udemy",
-      "title": "The Web Developer Bootcamp (2018)",
-      "instructor": "Colt Steele",
-      "hours": "47 hours",
-      "certificate": "images/wdb.jpg",
-      "dates": "June - August 2020",
-      "projects": [
-      "YelpCamp",
-      "Patatap Clone",
-      "Color Guessing Game"
-      ],
-      "topics": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "JQuery",
-      "REST API",
-      "Bootstrap",
-      "Node",
-      "MongDB",
-      "Mongoose",
-      "Schema Design",
-      "ExpressJS",
-      "Heroku"
-      ]
+        "company": "Udemy",
+        "title": "The Modern Javascript Bootcamp Course",
+        "instructor": "Colt Steele & Stephen Grider",
+        "hours": "52 hours",
+        "certificate": "https://www.udemy.com/certificate/UC-91ef49f8-8080-4e93-85d1-8037cf92f5a0/",
+        "dates": "August - October 2020",
+        "projects": [],
+        "topics": [
+          "Application Design Patterns",
+          "Node JS CLI Tools",
+          "Canvas API"
+        ]
       }
-      ]
+    ]
   }

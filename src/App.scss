@@ -17,13 +17,12 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-	overflow-x: hidden;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .section-title {
@@ -35,7 +34,6 @@ body {
 	color: #000;
 	text-align: center;
 }
-
 a{
 	text-decoration: none;
 }
@@ -474,22 +472,27 @@ a{
 		margin-bottom: 0;
 	}
 
-	#HT:hover > i{color: #E44D26;}
-	#CS:hover > i{color: #1572B6;}
-	#Ty:hover > i{color: #007ACC;}
-	#JQ:hover > i{color: #0868AC;}
-	#Ja:hover > i{color: #F0DB4F;}
-	#Py:hover > i{color: #ffd846;}
-	#No:hover > i{color: #83CD29;}
-	#Mo:hover > i{color: #4FAA41;}
-	#Ex:hover > i{color: #808080;}
-	#Re:hover > i{color: #61DAFB;}
-	#Sa:hover > i{color: #CB6699;}
-	#Bo:hover > i{color: #8813fc;}
-	#Bu:hover > i{color: #00D1B2;}
-	#He:hover > i{color: #6762A6;}
-	#We:hover > i{color: #1c78c0;}
-	#Li:hover > i{color: #000000;}
+	#HT:hover > i { color: #E44D26; }
+	#CS:hover > i { color: #1572B6; }
+	#Ty:hover > i { color: #3178C6; }
+	#JQ:hover > i { color: #0868AC; }
+	#Ja:hover > i { color: #F7DF1E; }
+	#Py:hover > i { color: #3776AB; }
+	#No:hover > i { color: #3C873A; }
+	#Mo:hover > i { color: #47A248; }
+	#Ex:hover > i { color: #000000; }
+	#Re:hover > i { color: #61DAFB; }
+	#Sa:hover > i { color: #CB6699; }
+	#Bo:hover > i { color: #563D7C; }
+	#Bu:hover > i { color: #00D1B2; }
+	#He:hover > i { color: #6762A6; }
+	#We:hover > i { color: #1c78c0; }
+	#Li:hover > i { color: #0077B5; }
+	#Vi:hover > i { color: #6E9FEE; }
+	#Fi:hover > i { color: #F24E1E; }
+	#Ne:hover > i { color: #000000; }
+	#Gi:hover > i { color: #F05032; }
+	#Ta:hover > i { color: #06B6D4; }
 }
 
 // ----------EXPERIENCE COMPONENT------
@@ -637,12 +640,13 @@ footer {
 		padding-right: 15px;
 	}
 	.skills-tile{
-		width: 85px !important;
-		height: 85px !important;
+		width: 100px !important;
+		height: 100px !important;
 
 		i{
-			width: 25px;
-			height: 25px;
+				width: 32px;
+				height: 32px;
+				font-size: 2.4rem !important;
 		}
 		p{
 			font-size: 12px !important;
