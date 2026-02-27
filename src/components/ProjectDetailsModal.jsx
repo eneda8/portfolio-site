@@ -3,7 +3,6 @@ import Modal from "react-bootstrap/Modal";
 import AwesomeSlider from "react-awesome-slider";
 import lightSlider from "../scss/light-slider.scss?inline";
 import darkSlider from "../scss/dark-slider.scss?inline";
-import { nanoid } from "nanoid";
 import {InnerImageZoom} from 'react-inner-image-zoom';
 
 export default function ProjectDetailsModal(props) {
@@ -24,7 +23,7 @@ export default function ProjectDetailsModal(props) {
       );
     });
     const img = images.map((elem) => {
-      return <div className="d-block w-100" key={nanoid()}><InnerImageZoom src={elem} /></div>;
+      return <div className="d-block w-100" key={elem}><InnerImageZoom src={elem} /></div>;
     });
     
     return (
