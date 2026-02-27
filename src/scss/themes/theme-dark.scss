@@ -1,18 +1,4 @@
-body[data-theme="dark"] {  
-
-   @import '../src/scss/dark-slider.scss';
-   
-   .slider-tab {
-      background-color: black !important;
-   }
-
-   .slider-image {
-      border: 5px solid black !important;
-   }
-
-   .link-href{
-      color: white !important;
-   }
+body[data-theme="dark"] {
 
    .button{
       background-color: white;
@@ -57,24 +43,33 @@ body[data-theme="dark"] {
    }
 
    #portfolio {
-      background: #4c6b66 ;
+      background: #4c6b66;
 
       .section-title {
          color: white !important;
       }
-      .foto div {
-         background:#343239;
+
+      .project-card {
+         background: #343239;
       }
-      .foto img{
-         border: 1px solid #343239
-      }
-      .project-title-settings {
+
+      .project-card-title {
          color: white;
       }
-      .project-date{
-         background: black;
+
+      .project-card-description {
+         color: rgba(255, 255, 255, 0.8);
+      }
+
+      .project-date {
+         background: #232c2f;
          color: white;
-      }      
+      }
+
+      .project-tech-badge {
+         background: #485d63;
+         color: white;
+      }
    }
 
    #resume {
@@ -104,12 +99,21 @@ body[data-theme="dark"] {
       }
    }
 
-   .modal-inside .modal-content {
-      background: #232c2f;
-      color: white;
+   #contact {
+      background: #485d63;
+      .section-title {
+         color: white !important;
+      }
+      .contact-text {
+         color: white;
+      }
    }
 
-   .close-icon {
-      color: white;
+   .back-to-top {
+      background-color: #4c6b66;
+      border-color: rgba(255, 255, 255, 0.4);
+      &:hover {
+         background-color: #98b6b1;
+      }
    }
 }

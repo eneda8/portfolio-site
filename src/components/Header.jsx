@@ -1,9 +1,12 @@
 import React from "react";
 import Switch from "react-switch";
 import Typewriter from "./Typewriter";
-import {nanoid} from "nanoid";
 import Button from 'react-bootstrap/Button';
 
+
+const HeaderTitleTypeAnimation = React.memo(function HeaderTitleTypeAnimation({ titles }) {
+  return <Typewriter className="title-styles" steps={titles} loop={50} />;
+});
 
 export default function Header(props) {
   const [theme, setTheme] = React.useState(false);
@@ -19,13 +22,9 @@ export default function Header(props) {
   const fullName = props.basicInfo.name;
   const titles = props.basicInfo.titles.map(title => [ title.toUpperCase(), 1500 ] ).flat();
 
-  const HeaderTitleTypeAnimation = React.memo(() => {
-    return <Typewriter className="title-styles" steps={titles} loop={50} />
-  });
-
   const networks = props.basicInfo.social.slice(0, -1).map(function(network) {
     return (
-      <Button key={nanoid()} size="lg" className="button" href={network.url} target="_blank" rel="noopener noreferrer">
+      <Button key={network.name} size="lg" className="button" href={network.url} target="_blank" rel="noopener noreferrer">
         <i className={network.icon}></i> {network.name}
       </Button>
     );
@@ -38,7 +37,7 @@ export default function Header(props) {
             <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
             <h1 className="mb-0">{[fullName]}</h1>
             <div className="title-container">
-              <HeaderTitleTypeAnimation />
+              <HeaderTitleTypeAnimation titles={titles} />
             </div>
             <Switch
               checked={theme}
@@ -64,11 +63,11 @@ export default function Header(props) {
                 ></span>
               }
               id="icon-switch"
+              aria-label="Toggle dark mode"
             />
             <div className="contact">{networks}</div>
         </div>
       </div>
     </header>
   );
-};
-
+}

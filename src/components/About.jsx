@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import profilePic from "/images/profilePic.png";
+import profilePic from "/images/profilePic.webp";
 import Image from 'react-bootstrap/Image'
 
 export default function About(props) {
@@ -14,12 +14,12 @@ export default function About(props) {
         <div className="row pb-lg-5 centered ">
           <div className="col-lg-4 mb-md-5 mr-5 centered">
             <div className="polaroid" >
-                <Image className="profilePic" fluid={true} height="250px" src={profilePic} alt="Avatar placeholder"/>
+                <Image className="profilePic" fluid={true} height="250px" src={profilePic} alt="Eneda Xhambazi"/>
                 <div className="polaroid--icons">
-                  <Icon className="polaroid--icon" icon="vscode-icons:file-type-mongo"/>
-                  <Icon className="polaroid--icon" icon="simple-icons:express" />
                   <Icon className="polaroid--icon" icon="logos:react"/>
-                  <Icon className="polaroid--icon" icon="vscode-icons:file-type-node"/>
+                  <Icon className="polaroid--icon" icon="logos:typescript-icon"/>
+                  <Icon className="polaroid--icon" icon="logos:nextjs-icon"/>
+                  <Icon className="polaroid--icon" icon="logos:tailwindcss-icon"/>
                 </div>
             </div>   
           </div>
@@ -33,7 +33,7 @@ export default function About(props) {
               </div>
               <div className="mini-page">
                 <div className="mini-nav">
-                  <span className="mini-logo">ex</span>
+                  <span className="mini-logo">EX</span>
                   <i className="fa-solid fa-bars"></i>
                 </div>
                 <div className="row overflow-hidden">

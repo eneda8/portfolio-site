@@ -21,7 +21,7 @@
       ],
       "image": "profilePic.JPG",
       "description_header": "Hi, I'm Eneda",
-      "description": "Frontend engineer with a background in executive support and a love for building things that work beautifully. I taught myself to code in 2020 and haven't stopped — 200+ hours of coursework, two production apps, and now reviewing frontend code professionally as an AI trainer.\n\nI bring the same precision from 7+ years of supporting senior leadership to my code: clean, organized, deadline-driven. Currently focused on React, TypeScript, and modern frontend tooling.\n\nCheck out <a href='https://findnearby.us'>Nearby</a>, a location discovery app built with Next.js and Google Maps, or <a href='https://www.tday.co'>t'day</a>, a full-stack social platform I built from scratch."
+      "description": "Frontend engineer with a background in executive support and a love for building things that work beautifully. I taught myself to code in 2020 and haven't stopped — 200+ hours of coursework, two production apps, and now reviewing frontend code professionally as an AI trainer.\n\nI bring the same precision from 7+ years of supporting senior leadership to my code: clean, organized, deadline-driven. Currently focused on React, TypeScript, and modern frontend tooling.\n\nCheck out <a href='https://findnearby.us'>Nearby</a>, a location discovery app built with Next.js and Google Maps, or <a href='https://www.tday.co'>t'day</a>, a full-stack social platform I recently rebuilt from the ground up with Next.js and TypeScript."
     },
     "skills": {
       "icons": [
@@ -94,21 +94,23 @@
     "projects": [
       {
         "title": "Nearby",
-        "startDate": "2024",
-        "description": "Nearby helps users discover interesting places close to any address they enter. It supports sophisticated category search, interactive map results, and lets users pin locations they want to visit. Built with a focus on performance and usability. <hr><h4>Features</h4><ul><li><b>Category search</b>: filter by place types and custom categories.</li><li><b>Pinning</b>: users can save places they want to visit.</li><li><b>Fast geocoding</b> and map-based results.</li></ul>",
-        "images": [
-          "images/portfolio/nearby/nearby_screenshot.png"
-        ],
+        "startDate": "2025-present",
+        "description": "A location discovery app that helps users find interesting places near any address. Features category search, interactive map results, and location pinning.",
+        "image": "/images/portfolio/nearby/nearby_screenshot.webp",
         "git": "https://github.com/eneda8/nearby",
-        "url": "https://www.nearbyirl.com/",
+        "url": "https://findnearby.us",
         "technologies": [
           {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
+            "class": "devicon-nextjs-plain",
+            "name": "Next.js"
           },
           {
-            "class": "devicon-react-original ",
+            "class": "devicon-react-original",
             "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
             "class": "devicon-google-plain",
@@ -117,365 +119,35 @@
         ]
       },
       {
-        "title": "t'day",
+        "title": "t’day",
         "startDate": "2021-present",
-        "description": "t'day is the world's first collective online journal where users rate today (their day as they perceive it) on a scale of 1-5. t’day asks for basic demographic information on signup (age group, country, and gender) and displays aggregate average rating scores in real time across those demographics.  Along with their 1-5 star rating, users may also attach an anonymous journal entry and can also comment anonymously on others' entries.<hr><h4>Features</h4><ul><li><b>Charts</b>: t’day compares data between demographic categories daily and over time and displays the data in graphs and charts.</li><li><b>Home page</b>: a randomized ‘timeline’ which displays 10 anonymous ratings at a time that can be filtered by demographic category.</li><li><b>Write</b>: a private page where the user can write private, encrypted journal entries with no character limit that are not tied to their daily public ratings.</li><li><b>User profiles</b>: private profiles that show the user’s history of ratings, comments, bookmarks, and journal entries.</li><li><b>Search</b>: a comprehensive search page paginates results, highlights search terms, and allows the user to filter entries based on demographic categories.</li></ul><hr>MongoDB and MongoDB Charts were used for data aggregation and visualization. <a href='https://www.npmjs.com/package/mongoose-field-encryption'>Mongoose-field-encryption<a/> was used for journal encryption. EJS was used for templating, PassportJS for authentication, and Cloudinary for image storage. To see t'day in action, log in with username 'demo' and password 'Demo123!'. Or make your own account and help build t'day's userbase! :)",
-        "images": [
-          "images/portfolio/t'day/1.png",
-          "images/portfolio/t'day/2.png",
-          "images/portfolio/t'day/3.png",
-          "images/portfolio/t'day/4.png",
-          "images/portfolio/t'day/5.png",
-          "images/portfolio/t'day/6.png",
-          "images/portfolio/t'day/7.png",
-          "images/portfolio/t'day/8.png"
-        ],
-        "git": "https://www.github.com/eneda8/tday",
+        "description": "A collective online journal rebuilt from the ground up with Next.js and TypeScript. Users rate their day 1-5, write encrypted entries, and explore demographic trends through real-time charts.",
+        "image": "/images/portfolio/tday-screenshot.webp",
+        "git": "https://github.com/eneda8/tday-next",
         "url": "https://www.tday.co",
         "technologies": [
           {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
+            "class": "devicon-nextjs-plain",
+            "name": "Next.js"
           },
           {
-            "class": "devicon-express-original ",
-            "name": "Express"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-nodejs-plain ",
-            "name": "Node.js"
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
           },
           {
-            "class": "devicon-mongodb-plain ",
+            "class": "devicon-tailwindcss-plain",
+            "name": "Tailwind"
+          },
+          {
+            "class": "devicon-mongodb-plain",
             "name": "MongoDB"
-          },
-          {
-            "class": "devicon-bootstrap-plain ",
-            "name": "Bootstrap"
-          }
-        ]
-      },
-      {
-        "title": "YelpCamp",
-        "startDate": "2020-2021",
-        "description": "The capstone project of Colt Steele's Web Developer Bootcamp on Udemy. Yelp but for campgrounds: a fully responsive CRUD app where users can create/edit/remove their own profiles for campgrounds across the country and review others' campground profiles. Yelp Camp features geolocation using <a href='https://www.mapbox.com'>Mapbox</a> and user authentication and authorization using <a href='https://www.passportjs.org'>Passport JS</a>. Layouts were created using <a href='https://www.ejs.co'>EJS</a> and the <a href='https://cloudinary.com/'>Cloudinary</a> API is used for image storage. To see Yelp Camp in action, a demo login account is available with username and password 'e'.",
-        "images": [
-          "images/portfolio/yelp-camp/1.png",
-          "images/portfolio/yelp-camp/2.png",
-          "images/portfolio/yelp-camp/3.png",
-          "images/portfolio/yelp-camp/4.png"
-        ],
-        "git": "https://github.com/eneda8/yelp-camp",
-        "url": "https://secret-fortress-70149.herokuapp.com/",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-express-original ",
-            "name": "Express"
-          },
-          {
-            "class": "devicon-nodejs-plain ",
-            "name": "Node.js"
-          },
-          {
-            "class": "devicon-mongodb-plain ",
-            "name": "MongoDB"
-          },
-          {
-            "class": "devicon-bootstrap-plain ",
-            "name": "Bootstrap"
-          }
-        ]
-      },
-      {
-        "title": "Tenzies",
-        "startDate": "2023",
-        "description": "A React version of the popular dice game Tenzi, created as part of the Learn React course on Scrimba. The game is played by 'freezing' one or more randomly generated dice and rolling the rest until all 10 dice match. The values of the selected dice are held in state and the React effect hook is used to track and detect the winning outcome. The game is fully responsive and was updated to include a timer, roll counter, and pips on the dice faces, as well as a confetti animation at the end of the game.",
-        "images": [
-          "images/portfolio/tenzies/1.png",
-          "images/portfolio/tenzies/2.png",
-          "images/portfolio/tenzies/3.png"
-        ],
-        "git": "https://github.com/eneda8/tenzies",
-        "url": "https://tenzies-ex.netlify.app",
-        "technologies": [
-          {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain "
-          },
-          {
-            "name": "CSS 3",
-            "class": "devicon-css3-plain "
-          },
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          },
-          {
-            "name": "React",
-            "class": "devicon-react-original "
-          }
-        ]
-      },
-      {
-        "title": "Meme Generator",
-        "startDate": "2023",
-        "description": "This app works by fetching a random meme image from the <a href='https://imgflip.com/api'>Imgflip API</a>. Both the meme data and the values of the user input for top and bottom text are held in state, allowing the user to create a personalized meme. The project was recently updated to include download functionality.",
-        "images": [
-          "images/portfolio/meme-generator/1.png",
-          "images/portfolio/meme-generator/2.png"
-        ],
-        "git": "https://github.com/eneda8/meme-generator",
-        "url": "https://meme-generator-ex.netlify.app",
-        "technologies": [
-          {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain "
-          },
-          {
-            "name": "CSS 3",
-            "class": "devicon-css3-plain "
-          },
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          },
-          {
-            "name": "React",
-            "class": "devicon-react-original "
-          }
-        ]
-      },
-      {
-        "title": "Maze",
-        "startDate": "2020",
-        "description": "An in-browser maze game that uses the <a href='https://brm.io/matter-js/'>Matter JS</a> physics engine. A randomized maze is generated using a recursive implementation of a depth-first search algorithm. MatterJS is then used to draw the maze onto the canvas element, map key presses to the movements of the ball shape on the screen and detect collisions between shapes (walls and the end goal). At the end of the game, the walls of the maze are collapsed using a MatterJS animation.",
-        "images": [
-          "images/portfolio/maze/1.png",
-          "images/portfolio/maze/2.png",
-          "images/portfolio/maze/3.png"
-        ],
-        "git": "https://github.com/eneda8/maze",
-        "url": "https://maze-ex.netlify.app",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Secret Message",
-        "startDate": "2020",
-        "description": "A secret message sharing app that uses <a href='https://developer.mozilla.org/en-US/docs/Glossary/Base64'>Base64</a> encoding. The user's message is converted to a Base64 string which is appended to a sharable URL link. When clicked, the link displays the original decoded message stylized as spoiler text. I recently updated this project to support emojis 😊.",
-        "images": [
-          "images/portfolio/secret-message/1.png",
-          "images/portfolio/secret-message/2.png",
-          "images/portfolio/secret-message/3.png"
-        ],
-        "git": "https://github.com/eneda8/secret-message",
-        "url": "https://secret-message-ex.netlify.app",
-        "technologies": [
-          {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain "
-          },
-          {
-            "name": "CSS 3",
-            "class": "devicon-css3-plain "
-          },
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Movie Fight",
-        "startDate": "2020",
-        "description": "An app that allows a user to compare two movies based on statistics fetched from the <a href='https://www.omdbapi.com'>OMBDI API</a> and choose a 'winner'. The app features an autocomplete widget that searchs the API on input change.",
-        "images": [
-          "images/portfolio/movie-fight/1.png",
-          "images/portfolio/movie-fight/2.png",
-          "images/portfolio/movie-fight/3.png"
-        ],
-        "git": "https://github.com/eneda8/movie-fight",
-        "url": "https://movie-fight-ex.netlify.app",
-        "technologies": [
-          {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain "
-          },
-          {
-            "name": "CSS 3",
-            "class": "devicon-css3-plain "
-          },
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          },
-          {
-            "name": "Bulma",
-            "class": "devicon-bulma-plain "
-          }
-        ]
-      },
-      {
-        "title": "Color Guessing Game",
-        "startDate": "2020",
-        "description": "Simple game that prompts the player to guess the RGB value of a randomized displayed color from either 3 (easy mode) or 6 (hard mode) options. ",
-        "images": [
-          "images/portfolio/color-game/1.png",
-          "images/portfolio/color-game/2.png",
-          "images/portfolio/color-game/3.png"
-        ],
-        "git": "https://github.com/eneda8/color-game",
-        "url": "https://color-game-ex.netlify.app",
-        "technologies": [
-          {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain "
-          },
-          {
-            "name": "CSS 3",
-            "class": "devicon-css3-plain "
-          },
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
-          }
-        ]
-      },    
-      {
-        "title": "Patatap Clone",
-        "startDate": "2020",
-        "description": "A simple clone of <a href='https://www.patatap.com'>Patatap</a> that uses <a href='https://www.howlerjs.com'>HowlerJS</a> for audio and <a href='http://paperjs.org/about/'>PaperJS</a> for animations. Pressing any A-Z key triggers a corresponding sound and circle animation. \n This was the first time I incorporated libraries into a project as part of my web development bootcamp course. :)",
-        "images": [
-          "images/portfolio/patatap-clone/1.png"
-        ],
-        "git": "https://github.com/eneda8/patatap-clone",
-        "url": "https://patatap-clone-ex.netlify.app",
-        "technologies": [
-          {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain "
-          },
-          {
-            "class": "devicon-javascript-plain ",
-            "name": "JavaScript"
           }
         ]
       }
     ],
-    "coursework": [
-      {
-        "company": "Scrum.org",
-        "title": "Professional Scrum Fundamentals",
-        "instructor": "",
-        "hours": "6 hours",
-        "certificate": "images/certificates/Professional Scrum Master I.pdf",
-        "dates": "September 2025",
-        "projects": [],
-        "topics": [
-        "Agile Methodologies",
-        "Scrum Framework"
-        ]
-      },
-      {
-        "company": "Udemy",
-        "title": "Mastering TypeScript - 2023 Edition",
-        "instructor": "Colt Steele",
-        "hours": "10.5 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-4a3864fd-4cb3-46c0-b476-92961da04377/",
-        "dates": "August 2023",
-        "projects": [],
-        "topics": [
-          "TypeScript fundamentals",
-          "TypeScript + React",
-          "TypeScript + Webpack"
-        ]
-      },
-      {
-        "company": "Scrimba",
-        "title": "Learn React",
-        "instructor": "Bob Ziroll",
-        "hours": "12 hours",
-        "dates": "March 2023",
-        "projects": [
-          "Tenzies",
-          "Meme Generator"
-        ],
-        "topics": [
-          "React fundamentals",
-          "Hooks",
-          "State management"
-        ]
-      },
-      {
-        "company": "Udemy",
-        "title": "One Week Python",
-        "instructor": "Colt Steele",
-        "hours": "14.5 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-0fa25aeb-ba95-47af-8b0f-7b5dc791be3f/",
-        "dates": "October 2022",
-        "projects": [],
-        "topics": [
-          "Python fundamentals",
-          "3rd-party modules",
-          "PIP",
-          "OOP"
-        ]
-      },
-      {
-        "company": "Udemy",
-        "title": "JavaScript Algorithms and Data Structures Masterclass",
-        "instructor": "Colt Steele",
-        "hours": "22 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-1760ee65-51e9-4c62-9930-5a460c1d5434/",
-        "dates": "May - July 2021",
-        "projects": [],
-        "topics": [
-          "Big O notation",
-          "Recursion",
-          "Searching & Sorting algorithms",
-          "Linked lists, Trees, Heaps",
-          "Hash tables, Graphs",
-          "Dynamic Programming"
-        ]
-      },
-      {
-        "company": "Udemy",
-        "title": "The Web Developer Bootcamp",
-        "instructor": "Colt Steele",
-        "hours": "64 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-879250f0-680d-4d2a-8384-0ba4394597fb/",
-        "dates": "2020 - 2021",
-        "projects": [
-          "YelpCamp"
-        ],
-        "topics": [
-          "HTML5, CSS3, JavaScript ES6",
-          "Node.js, Express, MongoDB",
-          "RESTful APIs",
-          "Authentication & Authorization"
-        ]
-      },
-      {
-        "company": "Udemy",
-        "title": "The Modern Javascript Bootcamp Course",
-        "instructor": "Colt Steele & Stephen Grider",
-        "hours": "52 hours",
-        "certificate": "https://www.udemy.com/certificate/UC-91ef49f8-8080-4e93-85d1-8037cf92f5a0/",
-        "dates": "August - October 2020",
-        "projects": [],
-        "topics": [
-          "Application Design Patterns",
-          "Node JS CLI Tools",
-          "Canvas API"
-        ]
-      }
-    ]
+    "coursework": []
   }

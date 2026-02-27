@@ -1,12 +1,10 @@
 import React from "react";
-import { nanoid } from "nanoid";
 
 export default function Skills(props) {
-  const skills = props.skills.icons.map(function (skill) {  
-
+  const skills = props.skills.icons.map(function (skill) {
     return (
-      <div id={skill.name.slice(0,2)} className="text-center skills-tile" key={nanoid()}>
-        <i className={skill.class}></i> 
+      <div id={skill.name.slice(0,2)} className="text-center skills-tile" key={skill.name}>
+        <i className={skill.class}></i>
         <p className="text-center">{skill.name}</p>
       </div>
     );
@@ -18,5 +16,4 @@ export default function Skills(props) {
       <div className="skills-container">{skills}</div>
     </section>
   );
-};
-
+}
